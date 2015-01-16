@@ -1,0 +1,117 @@
+{{#ifCond className '==' 'table'}}
+<section class="am-panel am-panel-default">
+  <div class="am-panel-bd">
+    $面板内容$
+  </div>
+  <table class="am-table">
+    <thead></thead>
+    <tbody></tbody>
+  </table>
+  <footer class="am-panel-footer">$面板页脚$</footer>
+</section>
+{{else}}
+{{#ifCond className '==' 'footer'}}
+<section class="am-panel am-panel-default">
+  <div class="am-panel-bd">
+    $面板内容$
+  </div>
+  <footer class="am-panel-footer">$面板页脚$</footer>
+</section>
+{{else}}
+{{#ifCond className '==' 'group'}}
+<div class="am-panel-group">
+  <section class="am-panel am-panel-default">
+    <header class="am-panel-hd">
+      <h3 class="am-panel-title">$面板标题$</h3>
+    </header>
+    <div class="am-panel-bd">
+      $面板内容$
+    </div>
+    <footer class="am-panel-footer">$面板页脚$</footer>
+  </section>
+  <section class="am-panel am-panel-default">
+    <header class="am-panel-hd">
+      <h3 class="am-panel-title">$面板标题$</h3>
+    </header>
+    <div class="am-panel-bd">
+      $面板内容$
+    </div>
+    <footer class="am-panel-footer">$面板页脚$</footer>
+  </section>
+</div>
+{{else}}
+{{#ifCond className '==' 'list'}}
+<section class="am-panel am-panel-default">
+  <div class="am-panel-bd">
+    $面板内容$
+  </div>
+  <ul class="am-list am-list-static">
+    <li></li>
+  </ul>
+  <footer class="am-panel-footer">$面板页脚$</footer>
+</section>
+{{else}}
+<section class="am-panel{{#if className}} am-panel-{{className}}{{else}} am-panel-default{{/if}}">
+  <header class="am-panel-hd">
+    <h3 class="am-panel-title">$面板标题$</h3>
+  </header>
+  <div class="am-panel-bd">
+    $面板内容$
+  </div>
+  <footer class="am-panel-footer">$面板页脚$</footer>
+</section>
+{{/ifCond}}
+{{/ifCond}}
+{{/ifCond}}
+{{/ifCond}}
+
+{{!--{{#ifCond className '==' 'footer'}}
+<section class="am-panel am-panel-default">
+  <div class="am-panel-bd">
+    $面板内容$
+  </div>
+  <footer class="am-panel-footer">$面板页脚$</footer>
+</section>
+{{else}}
+<section class="am-panel{{#if className}} am-panel-{{className}}{{else}} am-panel-default{{/if}}">
+  <header class="am-panel-hd">
+    <h3 class="am-panel-title">$面板标题$</h3>
+  </header>
+  <div class="am-panel-bd">
+    $面板内容$
+  </div>
+  <footer class="am-panel-footer">$面板页脚$</footer>
+</section>
+{{/ifCond}}
+{{#ifCond className '==' 'group'}}
+<div class="am-panel-group">
+  <section class="am-panel am-panel-default">
+    <header class="am-panel-hd">
+      <h3 class="am-panel-title">$面板标题$</h3>
+    </header>
+    <div class="am-panel-bd">
+      $面板内容$
+    </div>
+    <footer class="am-panel-footer">$面板页脚$</footer>
+  </section>
+  <section class="am-panel am-panel-default">
+    <header class="am-panel-hd">
+      <h3 class="am-panel-title">$面板标题$</h3>
+    </header>
+    <div class="am-panel-bd">
+      $面板内容$
+    </div>
+    <footer class="am-panel-footer">$面板页脚$</footer>
+  </section>
+</div>
+{{else}}
+<section class="am-panel{{#if className}} am-panel-{{className}}{{else}} am-panel-default{{/if}}">
+  <header class="am-panel-hd">
+    <h3 class="am-panel-title">$面板标题$</h3>
+  </header>
+  <div class="am-panel-bd">
+    $面板内容$
+  </div>
+  <footer class="am-panel-footer">$面板页脚$</footer>
+</section>
+{{/ifCond}}--}}

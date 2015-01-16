@@ -1,0 +1,7 @@
+<snippet><content><![CDATA[<div class="am-input-group am-datepicker-date" data-am-datepicker>
+  <input type="text" class="am-form-field" placeholder="日历组件" readonly>
+  <span class="am-input-group-btn am-datepicker-add-on">
+    <button class="am-btn am-btn-default" type="button"><span class="am-icon-calendar"></span> </button>
+  </span>
+</div>
+]]></content><tabTrigger>am-datapicker:group</tabTrigger></snippet>

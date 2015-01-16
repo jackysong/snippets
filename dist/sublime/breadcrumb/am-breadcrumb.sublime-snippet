@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[<ol class="am-breadcrumb">
+  <li><a href="#$END$">首页</a></li>
+  <li><a href="#$END$">分类</a></li>
+  <li class="am-active">内容</li>
+</ol>
+]]></content><tabTrigger>am-breadcrumb</tabTrigger></snippet>

@@ -1,0 +1,11 @@
+<snippet><content><![CDATA[<section class="am-panel am-panel-default">
+  <div class="am-panel-bd">
+    $面板内容$
+  </div>
+  <ul class="am-list am-list-static">
+    <li></li>
+  </ul>
+  <footer class="am-panel-footer">$面板页脚$</footer>
+</section>
+
+]]></content><tabTrigger>am-panel:list</tabTrigger></snippet>

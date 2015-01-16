@@ -1,0 +1,7 @@
+<ul class="am-list{{#if className}} am-list-{{className}}{{/if}}">
+  {{#ifCond className '===' 'static'}}
+  <li><!-- 纯文字列表 -->列表内容 </li>
+  {{else}}
+  <li><a href="$END$">列表内容 </a></li>
+  {{/ifCond}}
+</ul>

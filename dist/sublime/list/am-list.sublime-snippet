@@ -1,0 +1,3 @@
+<snippet><content><![CDATA[<ul class="am-list">
+  <li><a href="$END$">列表内容 </a></li>
+</ul>]]></content><tabTrigger>am-list</tabTrigger></snippet>

@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[<div class="am-progress am-progress-bar-sm">
+  <div class="am-progress-bar" style="width: 15%"></div>
+</div>
+
+]]></content><tabTrigger>am-progress:sm</tabTrigger></snippet>

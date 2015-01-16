@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[<div class="am-g am-g-5">
+  <div class="am-u-sm-$END$ am-u-md-$END$ am-u-lg-$END$">
+    内容
+  </div>
+</div>
+]]></content><tabTrigger>am-grid:5</tabTrigger></snippet>

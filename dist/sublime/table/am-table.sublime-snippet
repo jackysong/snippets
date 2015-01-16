@@ -1,0 +1,15 @@
+<snippet><content><![CDATA[<table class="am-table $am-table-hover$">
+  <thead>
+    <tr>
+      <th>表格标题 </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>表格内容 </td>
+    </tr>
+    <tr class="am-active">
+      <td>表格内容 </td>
+    </tr>
+  </tbody>
+</table>]]></content><tabTrigger>am-table</tabTrigger></snippet>

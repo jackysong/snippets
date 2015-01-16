@@ -1,0 +1,12 @@
+<snippet><content><![CDATA[<div id="$doc-dropdown-justify$">
+  <div class="am-dropdown" data-am-dropdown="{justify: '#$doc-dropdown-justify$'}">
+    <button class="am-btn am-btn-success am-dropdown-toggle">宽度适应下拉 <span class="am-icon-caret-down"></span></button>
+    <div class="am-dropdown-content">
+      <h2>I am what I am</h2>
+      <p>
+        内容
+      </p>
+    </div>
+  </div>
+</div>
+]]></content><tabTrigger>am-dropdown:justify</tabTrigger></snippet>

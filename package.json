@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/amazeui/snippets/issues"
   },
-  "homepage": "https://github.com/amazeui/snippets"
+  "homepage": "https://github.com/amazeui/snippets",
+  "devDependencies": {
+    "underscore": "^1.7.0"
+  },
+  "dependencies": {
+    "handlebars": "^2.0.0"
+  }
 }

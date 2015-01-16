@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[<div class="am-input-group am-input-group-btn">
+  <span class="am-input-group-btn">
+    <button class="am-btn am-btn-default" type="button">$<span class="am-icon-search"></span>$ </button>
+  </span>
+</div>]]></content><tabTrigger>am-input-group:btn</tabTrigger></snippet>

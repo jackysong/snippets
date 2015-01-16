@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[  <div class="am-btn-group am-btn-group-sm">
+    <button type="button" class="am-btn am-btn-default">$按钮组$</button>  
+  </div>
+]]></content><tabTrigger>am-btn-group:sm</tabTrigger></snippet>

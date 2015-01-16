@@ -1,0 +1,3 @@
+<snippet><content><![CDATA[<div data-am-scrollspy="{animation: '$$'}, $delay: 3000$, repeat: false$">
+  内容
+</div>]]></content><tabTrigger>am-scrollspy</tabTrigger></snippet>

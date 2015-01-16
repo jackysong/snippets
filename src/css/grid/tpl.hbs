@@ -1,4 +1,24 @@
-<div class="am-g {{className}}">
-  <div class="am-u-sm-4">4</div>
-  <div class="am-u-sm-8">8</div>
+{{#unless className}}
+<div class="am-g">
+  <div class="am-u-sm-$END$ am-u-md-$END$ am-u-lg-$END$">
+    内容
+  </div>
 </div>
+{{/unless}}
+{{#if className}}
+{{#ifCond className '==' 'container'}}
+<div class="am-container">
+  <div class="am-g">
+    <div class="am-u-sm-$END$ am-u-md-$END$ am-u-lg-$END$">
+      内容
+    </div>
+  </div>
+</div>
+{{else}}
+<div class="am-g am-g-{{className}}">
+  <div class="am-u-sm-$END$ am-u-md-$END$ am-u-lg-$END$">
+    内容
+  </div>
+</div>
+{{/ifCond}}
+{{/if}}

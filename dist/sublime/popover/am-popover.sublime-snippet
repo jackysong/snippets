@@ -1,0 +1,3 @@
+<snippet><content><![CDATA[<button class="am-btn am-btn-success" data-am-popover="{content: '$内容$', trigger: 'hover focus'}">
+  Popover
+</button>]]></content><tabTrigger>am-popover</tabTrigger></snippet>

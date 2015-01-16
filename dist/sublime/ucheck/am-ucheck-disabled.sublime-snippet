@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[<label class="am-checkbox">
+  <input type="$checkbox$" value="" data-am-ucheck disabled> disabled
+</label>
+]]></content><tabTrigger>am-ucheck:disabled</tabTrigger></snippet>

@@ -1,0 +1,29 @@
+{{#ifCond className '==' 'xs'}}
+<div class="am-progress am-progress-bar-{{className}}">
+  <div class="am-progress-bar" style="width: 15%"></div>
+</div>
+{{else}}
+{{#ifCond className '==' 'sm'}}
+<div class="am-progress am-progress-bar-{{className}}">
+  <div class="am-progress-bar" style="width: 15%"></div>
+</div>
+{{else}}
+{{#ifCond className '==' 'striped'}}
+<div class="am-progress am-progress-bar-{{className}}">
+  <div class="am-progress-bar" style="width: 15%"></div>
+</div>
+{{else}}
+{{#if className}}
+<div class="am-progress">
+  <div class="am-progress-bar{{#if className}} am-progress-bar-{{className}}{{/if}}" style="width: 15%"></div>
+</div>
+{{/if}}
+{{/ifCond}}
+{{/ifCond}}
+{{/ifCond}}
+
+{{#unless className}}
+<div class="am-progress">
+  <div class="am-progress-bar" style="width: 40%">40%</div>
+</div>
+{{/unless}}

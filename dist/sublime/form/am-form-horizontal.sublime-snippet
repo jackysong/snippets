@@ -1,0 +1,16 @@
+<snippet><content><![CDATA[
+<form action="$END$" method="POST" role="form" class="am-form am-form-horizontal">
+  <!-- form 结合 grid 使用 -->
+  <div class="am-form-group">
+    <label for="" class="am-u-sm-$2$ am-form-label">电子邮件</label>
+    <div class="am-u-sm-10">
+      <input type="email" id="" placeholder="输入你的电子邮件" />
+    </div>
+  </div>
+
+  <div class="am-form-group">
+    <div class="am-u-sm-$10$ am-u-sm-offset-$2$">
+      <button type="submit" class="am-btn am-btn-default">提交登入</button>
+    </div>
+  </div>
+</form>]]></content><tabTrigger>am-form:horizontal</tabTrigger></snippet>

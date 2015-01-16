@@ -1,0 +1,14 @@
+<snippet><content><![CDATA[<!-- 触发 button -->
+<button class="am-btn am-btn-primary" data-am-modal>$Modal$</button>
+<div class="am-modal am-modal-no-btn" tabindex="-1">
+  <div class="am-modal-dialog">
+    <div class="am-modal-hd">$Modal 标题$
+      <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+    </div>
+    <div class="am-modal-bd">
+      $Modal 内容$
+    </div>
+  </div>
+</div>
+]]></content><tabTrigger>am-dropdown</tabTrigger></snippet></div>
+]]></content><tabTrigger>am-dropdown</tabTrigger></snippet>

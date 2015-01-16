@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[<div class="am-input-group am-input-group-danger">
+  <span class="am-input-group-label">    
+    <i class="am-icon-user"></i>    
+  </span>
+  <input type="text" class="am-form-field" placeholder="$Username$">
+</div>]]></content><tabTrigger>am-input-group:danger</tabTrigger></snippet>

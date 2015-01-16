@@ -1,0 +1,8 @@
+<snippet><content><![CDATA[<div class="am-container">
+  <div class="am-g">
+    <div class="am-u-sm-$END$ am-u-md-$END$ am-u-lg-$END$">
+      内容
+    </div>
+  </div>
+</div>
+]]></content><tabTrigger>am-grid:container</tabTrigger></snippet>

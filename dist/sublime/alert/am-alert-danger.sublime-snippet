@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[<div class="am-alert am-alert-danger" data-am-alert>
+  <button type="button" class="am-close">&times;</button>
+  <p>内容 </p>
+</div>]]></content><tabTrigger>am-alert:danger</tabTrigger></snippet>

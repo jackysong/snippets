@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[<label class="am-checkbox">
+  <input type="$checkbox$" value="" data-am-ucheck checked> checked
+</label>
+]]></content><tabTrigger>am-ucheck:checked</tabTrigger></snippet>

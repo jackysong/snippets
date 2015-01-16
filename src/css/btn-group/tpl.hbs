@@ -1,0 +1,16 @@
+{{#ifCond className '==' 'toolbar'}}
+<div class="am-btn-toolbar">
+{{/ifCond}}
+  {{#ifCond className '==' 'stacked'}}
+  <div class="am-btn-group-stacked">
+  {{else}}
+  <div class="am-btn-group{{#if className}} am-btn-group-{{className}}{{/if}}">
+  {{/ifCond}}  
+    {{#ifCond className '==' 'justify'}}
+    <a class="am-btn am-btn-default" role="button">$自适应宽度$</a>
+    {{/ifCond}}
+    <button type="button" class="am-btn am-btn-default">$按钮组$</button>  
+  </div>
+{{#ifCond className '==' 'toolbar'}}
+</div>
+{{/ifCond}}

@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[<ul class="am-nav am-nav-justify">
+  <li class="am-active"><a href="#">$active$ </a></li>
+  <li><a href="#">$列表$ </a></li>
+</ul>]]></content><tabTrigger>am-nav:justify</tabTrigger></snippet>

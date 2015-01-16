@@ -1,0 +1,11 @@
+<snippet><content><![CDATA[<div class="am-dropdown am-dropdown-up" data-am-dropdown>
+  <button class="am-btn am-btn-danger am-dropdown-toggle" data-am-dropdown-toggle>上拉列表 <span class="am-icon-caret-up"></span></button>
+  <ul class="am-dropdown-content">
+    <li class="am-dropdown-header">$标题$</li>
+    <li><a href="#">$li$</a></li>
+    <li class="am-active"><a href="#">$active li$</a></li>
+    <li class="am-disabled"><a href="#">$disabled li$</a></li>
+    <li class="am-divider"></li>
+  </ul>
+</div>
+]]></content><tabTrigger>am-dropdown:up</tabTrigger></snippet>

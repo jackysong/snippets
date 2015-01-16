@@ -1,0 +1,29 @@
+<snippet><content><![CDATA[<!-- 手风琴折叠效果 -->
+<div class="am-panel-group" id="accordion">
+  <div class="am-panel am-panel-default">
+    <div class="am-panel-hd">
+      <h4 class="am-panel-title" data-am-collapse="{parent: '#accordion', target: '#do-not-say-1'}">
+        $标题 #1$
+      </h4>
+    </div>
+    <!-- 默认显示 -->
+    <div id="do-not-say-1" class="am-panel-collapse am-collapse am-in">
+      <div class="am-panel-bd">
+        $内容 #1$
+      </div>
+    </div>
+  </div>
+  <div class="am-panel am-panel-default">
+    <div class="am-panel-hd">
+      <h4 class="am-panel-title" data-am-collapse="{parent: '#accordion', target: '#do-not-say-2'}">
+        $标题 #2$
+      </h4>
+    </div>
+    <div id="do-not-say-2" class="am-panel-collapse am-collapse">
+      <div class="am-panel-bd">
+        $内容 #2$
+      </div>
+    </div>
+  </div>
+</div>
+]]></content><tabTrigger>am-collapse:accordion</tabTrigger></snippet>

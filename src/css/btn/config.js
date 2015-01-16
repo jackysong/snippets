@@ -2,7 +2,6 @@
 
 module.exports = {
   name: 'btn',
-  colors: ['default', 'fixed', 'collapse'],
-  size: ['default', 'fixed', 'collapse']
+  colors: ['default', 'primary', 'secondary', 'success', 'warning', 'danger'],
+  sizes: ['xl', 'lg', 'sm', 'xs']
 };
-
