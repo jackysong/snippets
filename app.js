@@ -113,7 +113,7 @@ function compileWebstorm() {
     snippet = snippet.replace(regTab, function($0, $1) {
       var num = _.indexOf(arrNum, $0) + 1;
       var varName = 'var' + num;
-      tabVariable.push('    <variable name="'+ varName +'" expression="'+ $1 +'" defaultValue="" alwaysStopAt="true" />');
+      tabVariable.push('    <variable name="'+ varName +'" expression="&quot;'+ $1 +'&quot;" defaultValue="" alwaysStopAt="true" />');
       return $1 = '$' + varName + '$';
     });
 
