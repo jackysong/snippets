@@ -1,1 +1,8 @@
-<snippet><content><![CDATA[<div class="am-animation-slide-left$ am-animation-reverse$">slide-left</div>]]></content><tabTrigger>am-animation:slide-left</tabTrigger></snippet>
+<snippet>
+  <content>
+    <![CDATA[
+<div class="am-animation-slide-left${1: am-animation-reverse}">slide-left</div>
+    ]]>
+  </content>
+  <tabTrigger>am-animation:slide-left</tabTrigger>
+</snippet>

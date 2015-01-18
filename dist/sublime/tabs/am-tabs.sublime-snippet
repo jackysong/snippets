@@ -1,3 +1,10 @@
-<snippet><content><![CDATA[<div data-am-sticky>
-  <button class="am-btn am-btn-primary am-btn-block">Stick to top</button>
-</div>]]></content><tabTrigger>am-tabs</tabTrigger></snippet>
+<snippet>
+  <content>
+    <![CDATA[
+<div data-am-sticky>
+  <button class="am-btn am-btn-primary am-btn-block">${1:Stick to top}</button>
+</div>
+    ]]>
+  </content>
+  <tabTrigger>am-tabs</tabTrigger>
+</snippet>

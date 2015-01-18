@@ -1,8 +1,14 @@
-<snippet><content><![CDATA[<section class="am-panel am-panel-default">
+<snippet>
+  <content>
+    <![CDATA[
+<section class="am-panel am-panel-default">
   <div class="am-panel-bd">
-    $面板内容$
+    ${1:面板内容}
   </div>
-  <footer class="am-panel-footer">$面板页脚$</footer>
+  <footer class="am-panel-footer">${2:面板页脚}</footer>
 </section>
 
-]]></content><tabTrigger>am-panel:footer</tabTrigger></snippet>
+    ]]>
+  </content>
+  <tabTrigger>am-panel:footer</tabTrigger>
+</snippet>

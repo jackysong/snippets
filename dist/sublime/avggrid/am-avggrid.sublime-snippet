@@ -1,3 +1,10 @@
-<snippet><content><![CDATA[<ul class="am-avg-sm-$end$ am-avg-md-$end$ am-avg-lg-$end$">
-  <li>内容 </li>
-</ul>]]></content><tabTrigger>am-avggrid</tabTrigger></snippet>
+<snippet>
+  <content>
+    <![CDATA[
+<ul class="am-avg-sm-${1:1} am-avg-md-${1:1} am-avg-lg-${1:1}">
+  <li>${4:内容}</li>
+</ul>
+    ]]>
+  </content>
+  <tabTrigger>am-avggrid</tabTrigger>
+</snippet>

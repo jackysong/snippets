@@ -1,2 +1,9 @@
-<snippet><content><![CDATA[<img class="am-circle" alt="" src="$END$" width="" height="" />
-]]></content><tabTrigger>am-img:circle</tabTrigger></snippet>
+<snippet>
+  <content>
+    <![CDATA[
+<img class="am-circle" alt="" src="${1:imgsrc}" width="" height="" />
+
+    ]]>
+  </content>
+  <tabTrigger>am-img:circle</tabTrigger>
+</snippet>

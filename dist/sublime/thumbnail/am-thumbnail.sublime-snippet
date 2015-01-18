@@ -1,5 +1,12 @@
-<snippet><content><![CDATA[<!-- 能结合 Grid、AVG Grid 使用 -->
+<snippet>
+  <content>
+    <![CDATA[
+<!-- 能结合 Grid、AVG Grid 使用 -->
 <div class="am-thumbnail">
   <img src="" alt=""/>
-  <h3 class="am-thumbnail-caption">图片标题 #1</h3>
-</div>]]></content><tabTrigger>am-thumbnail</tabTrigger></snippet>
+  <h3 class="am-thumbnail-caption">${1:图片标题}</h3>
+</div>
+    ]]>
+  </content>
+  <tabTrigger>am-thumbnail</tabTrigger>
+</snippet>

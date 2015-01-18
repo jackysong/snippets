@@ -1,15 +1,22 @@
-<snippet><content><![CDATA[<table class="am-table $am-table-hover$">
+<snippet>
+  <content>
+    <![CDATA[
+<table class="am-table${1: am-table-hover}">
   <thead>
     <tr>
-      <th>表格标题 </th>
+      <th>${2:表格标题}</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>表格内容 </td>
+      <td>${3:表格内容}</td>
     </tr>
     <tr class="am-active">
-      <td>表格内容 </td>
+      <td>${3:表格内容}</td>
     </tr>
   </tbody>
-</table>]]></content><tabTrigger>am-table</tabTrigger></snippet>
+</table>
+    ]]>
+  </content>
+  <tabTrigger>am-table</tabTrigger>
+</snippet>

@@ -1,2 +1,9 @@
-<snippet><content><![CDATA[<span class="am-icon-$home$">字体图标 </span>
-]]></content><tabTrigger>am-icon</tabTrigger></snippet>
+<snippet>
+  <content>
+    <![CDATA[
+<span class="am-icon-${1:home}">${2:字体图标}</span>
+
+    ]]>
+  </content>
+  <tabTrigger>am-icon</tabTrigger>
+</snippet>

@@ -1,6 +1,13 @@
-<snippet><content><![CDATA[<div class="am-input-group">
+<snippet>
+  <content>
+    <![CDATA[
+<div class="am-input-group">
   <span class="am-input-group-label">    
     <i class="am-icon-user"></i>    
   </span>
-  <input type="text" class="am-form-field" placeholder="$Username$">
-</div>]]></content><tabTrigger>am-input-group</tabTrigger></snippet>
+  <input type="text" class="am-form-field" placeholder="${1:Username}">
+</div>
+    ]]>
+  </content>
+  <tabTrigger>am-input-group</tabTrigger>
+</snippet>

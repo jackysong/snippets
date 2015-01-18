@@ -1,7 +1,14 @@
-<snippet><content><![CDATA[<div class="am-dropdown" data-am-dropdown>
-  <button class="am-btn am-btn-success am-dropdown-toggle">Dropdown <span class="am-icon-caret-down"></span></button>
+<snippet>
+  <content>
+    <![CDATA[
+<div class="am-dropdown" data-am-dropdown>
+  <button class="am-btn am-btn-success am-dropdown-toggle">${1:Dropdown} <span class="am-icon-caret-down"></span></button>
   <div class="am-dropdown-content">
-    内容
+    ${2:内容}
   </div>
 </div>
-]]></content><tabTrigger>am-dropdown:content</tabTrigger></snippet>
+
+    ]]>
+  </content>
+  <tabTrigger>am-dropdown:content</tabTrigger>
+</snippet>

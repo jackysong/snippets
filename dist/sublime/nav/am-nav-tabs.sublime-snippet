@@ -1,4 +1,11 @@
-<snippet><content><![CDATA[<ul class="am-nav am-nav-tabs">
-  <li class="am-active"><a href="#">$active$ </a></li>
-  <li><a href="#">$列表$ </a></li>
-</ul>]]></content><tabTrigger>am-nav:tabs</tabTrigger></snippet>
+<snippet>
+  <content>
+    <![CDATA[
+<ul class="am-nav am-nav-tabs">
+  <li class="am-active"><a href="#">${1:active}</a></li>
+  <li><a href="#">${2:列表}</a></li>
+</ul>
+    ]]>
+  </content>
+  <tabTrigger>am-nav:tabs</tabTrigger>
+</snippet>

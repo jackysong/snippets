@@ -1,9 +1,16 @@
-<snippet><content><![CDATA[<!-- 折叠菜单效果 -->
-<button class="am-btn am-btn-primary" data-am-collapse="{target: '#collapse-nav'}">$Menu$ <i class="am-icon-bars"></i></button>
+<snippet>
+  <content>
+    <![CDATA[
+<!-- 折叠菜单效果 -->
+<button class="am-btn am-btn-primary" data-am-collapse="{target: '#${1:collapse-nav}'}">${2:Menu} <i class="am-icon-bars"></i></button>
 <nav>
-  <ul id="collapse-nav" class="am-nav am-collapse">
-    <li><a href="">$标题$</a></li>
-    <li class="am-active"><a href="">$active 标题$</a></li>
+  <ul id="${1:collapse-nav}" class="am-nav am-collapse">
+    <li><a href="">${4:标题}</a></li>
+    <li class="am-active"><a href="">${5:active 标题}</a></li>
   </ul>
 </nav>
-]]></content><tabTrigger>am-collapse</tabTrigger></snippet>
+
+    ]]>
+  </content>
+  <tabTrigger>am-collapse</tabTrigger>
+</snippet>

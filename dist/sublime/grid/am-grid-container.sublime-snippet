@@ -1,8 +1,15 @@
-<snippet><content><![CDATA[<div class="am-container">
+<snippet>
+  <content>
+    <![CDATA[
+<div class="am-container">
   <div class="am-g">
-    <div class="am-u-sm-$END$ am-u-md-$END$ am-u-lg-$END$">
-      内容
+    <div class="am-u-sm-${1:1} am-u-md-${1:1} am-u-lg-${1:1}">
+      ${4:内容}
     </div>
   </div>
 </div>
-]]></content><tabTrigger>am-grid:container</tabTrigger></snippet>
+
+    ]]>
+  </content>
+  <tabTrigger>am-grid:container</tabTrigger>
+</snippet>

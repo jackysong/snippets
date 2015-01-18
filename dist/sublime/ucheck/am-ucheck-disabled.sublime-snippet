@@ -1,4 +1,11 @@
-<snippet><content><![CDATA[<label class="am-checkbox">
-  <input type="$checkbox$" value="" data-am-ucheck disabled> disabled
+<snippet>
+  <content>
+    <![CDATA[
+<label class="am-checkbox">
+  <input type="${1:checkbox}" value="" data-am-ucheck disabled> ${2:disabled}
 </label>
-]]></content><tabTrigger>am-ucheck:disabled</tabTrigger></snippet>
+
+    ]]>
+  </content>
+  <tabTrigger>am-ucheck:disabled</tabTrigger>
+</snippet>

@@ -1,1 +1,8 @@
-<snippet><content><![CDATA[<div class="am-animation-scale-down$ am-animation-reverse$">scale-down</div>]]></content><tabTrigger>am-animation:scale-down</tabTrigger></snippet>
+<snippet>
+  <content>
+    <![CDATA[
+<div class="am-animation-scale-down${1: am-animation-reverse}">scale-down</div>
+    ]]>
+  </content>
+  <tabTrigger>am-animation:scale-down</tabTrigger>
+</snippet>

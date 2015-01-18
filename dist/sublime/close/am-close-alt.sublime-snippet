@@ -1,1 +1,8 @@
-<snippet><content><![CDATA[<button type="button" class="am-closeam-close-alt">&times;</button>]]></content><tabTrigger>am-close:alt</tabTrigger></snippet>
+<snippet>
+  <content>
+    <![CDATA[
+<button type="button" class="am-closeam-close-alt">&times;</button>
+    ]]>
+  </content>
+  <tabTrigger>am-close:alt</tabTrigger>
+</snippet>

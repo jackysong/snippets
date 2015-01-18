@@ -1,5 +1,12 @@
-<snippet><content><![CDATA[<select multiple data-am-selected>
-  <option value="$a$">$title$</option>
-  <option value="$a$" selected>$selected$</option>
+<snippet>
+  <content>
+    <![CDATA[
+<select multiple data-am-selected>
+  <option value="${1:a}">${2:title}</option>
+  <option value="${1:a}" selected>${4:selected}</option>
 </select>
-]]></content><tabTrigger>am-select:multiple</tabTrigger></snippet>
+
+    ]]>
+  </content>
+  <tabTrigger>am-select:multiple</tabTrigger>
+</snippet>

@@ -4,7 +4,7 @@ var handlebars = require('handlebars');
 var _ = require('underscore');
 var fs = require('fs');
 var path = require('path');
-var version = 2.0;
+var version = '2.1.0';
 
 // Handlebars Helper
 handlebars.registerHelper('ifCond', function(v1, operator, v2, options) {
@@ -84,30 +84,64 @@ compileSublime(jsData);
 
 compileWebstorm();
 
-function compileWebstorm() {
+console.log('snippets is saved');
+
+function compileWebstorm() {  
+
+  var result = [];
+  var fileName = 'AmazeUI.xml';
+  var dirPath = __dirname + config.dist.webstorm;
+
+  var data = cssData.concat(jsData);
+
+  _.each(data, function(value) {
+    var triggerName = value.triggerName;
+
+    var regLt = /</mg,
+        regGt = />/mg,
+        regQuo = /\"/mg,
+        regTab = /\$([^\$]+)\$/img;
+
+    var snippet = value.data;
+    var arrNum = snippet.match(regTab);
+    var tabVariable = [];
+
+    snippet = snippet.replace(regLt, '&lt;');
+    snippet = snippet.replace(regGt, '&gt;');
+    snippet = snippet.replace(regQuo, '&quot;');
+
+    snippet = snippet.replace(regTab, function($0, $1) {
+      var num = _.indexOf(arrNum, $0) + 1;
+      var varName = 'var' + num;
+      tabVariable.push('    <variable name="'+ varName +'" expression="'+ $1 +'" defaultValue="" alwaysStopAt="true" />');
+      return $1 = '$' + varName + '$';
+    });
+
+    var liveTpl = [
+      '  <template name="'+ triggerName +'" value="'+ snippet +'" toReformat="true" toShortenFQNames="true">\n',
+      tabVariable.join(''),
+      '    <context>',
+      '      <option name="HTML_TEXT" value="true" />',
+      '      <option name="HTML" value="true" />',
+      '    </context>',
+      '  </template>'
+    ].join('\n');
+
+    result.push(liveTpl);
+
+  });
+
   var tpl = [
     '<?xml version="1.0" encoding="UTF-8"?>',
-    '<templateSet group="AmazeUI' + version + '">',
+    '<templateSet group="AmazeUI">',
+    result.join(''),
     '</templateSet>'
-  ];
-  _.each(cssData, function(value) {
-    var triggerName = value.triggerName;
-    var regLt = /</mg;
-    var regGt = />/mg;
-    var regQuo = /\"/mg;
-    var data = value.data.replace(regLt, '&lt;');
-    data = data.replace(regGt, '&gt;');
-    data = data.replace(regQuo, '&quot;');
-    console.log(data);
-    /*var liveTpl = [
-      '<template name="'+ triggerName +'" value="'+  +'" toReformat="true" toShortenFQNames="true">',
-      '<variable name="classname" expression="" defaultValue="" alwaysStopAt="true" />',
-      '<context>',
-      '<option name="HTML_TEXT" value="true" />',
-      '<option name="HTML" value="true" />',
-      '</context>',
-      '</template>;'
-    ]*/
+  ].join('\n');
+
+  mkdirsSync(dirPath);
+
+  fs.writeFile(dirPath + '/' + fileName, tpl, function(err) {
+    if (err) throw err;
   });
 }
 
@@ -118,25 +152,37 @@ function compileSublime(data) {
   _.each(data, function(value) {
     var dirPath = __dirname + config.dist.sublime;
     var dirName = dirPath + '/' + value.name;
-    var fireName = dirName + '/' + prefixName + value.name;
-    if (value.fileName) {
-      fireName += '-' + value.fileName + '.sublime-snippet';
-    } else {
-      fireName += '.sublime-snippet';
-    }
+    var fileName = dirName + '/' + prefixName + value.name;
+    var snippet = value.data;
+    var result;    
+    var regTab = /\$([^\$]+)\$/img;
+    var arr = snippet.match(regTab);
 
-    var result = [
+    if (value.fileName) {
+      fileName += '-' + value.fileName + '.sublime-snippet';
+    } else {
+      fileName += '.sublime-snippet';
+    }
+    
+    snippet = snippet.replace(regTab, function($0, $1) {
+      var num = _.indexOf(arr, $0) + 1;
+      return '${'+ num + ':' + $1 + '}';
+    });
+
+    result = [
       '<snippet>',
-      '<content><![CDATA[',
-      value.data,
-      ']]></content>',
-          '<tabTrigger>'+ value.triggerName +'</tabTrigger>',
+      '  <content>',
+      '    <![CDATA[',
+      snippet,
+      '    ]]>',
+      '  </content>',
+      '  <tabTrigger>'+ value.triggerName +'</tabTrigger>',
       '</snippet>'
-    ].join('');
+    ].join('\n');
 
     mkdirsSync(dirName);
 
-    fs.writeFile(fireName, result, function(err) {
+    fs.writeFile(fileName, result, function(err) {
       if (err) throw err;
     });
   });

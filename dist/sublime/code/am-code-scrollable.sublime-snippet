@@ -1,5 +1,12 @@
-<snippet><content><![CDATA[<pre class="am-pre-scrollable">
+<snippet>
+  <content>
+    <![CDATA[
+<pre class="am-pre-scrollable">
 	<code>
-		
+		${1:code}
 	</code>
-</pre>]]></content><tabTrigger>am-code:scrollable</tabTrigger></snippet>
+</pre>
+    ]]>
+  </content>
+  <tabTrigger>am-code:scrollable</tabTrigger>
+</snippet>

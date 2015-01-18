@@ -1,11 +1,18 @@
-<snippet><content><![CDATA[<div class="am-dropdown am-dropdown-up" data-am-dropdown>
-  <button class="am-btn am-btn-danger am-dropdown-toggle" data-am-dropdown-toggle>上拉列表 <span class="am-icon-caret-up"></span></button>
+<snippet>
+  <content>
+    <![CDATA[
+<div class="am-dropdown am-dropdown-up" data-am-dropdown>
+  <button class="am-btn am-btn-danger am-dropdown-toggle" data-am-dropdown-toggle>${1:上拉列表} <span class="am-icon-caret-up"></span></button>
   <ul class="am-dropdown-content">
-    <li class="am-dropdown-header">$标题$</li>
-    <li><a href="#">$li$</a></li>
-    <li class="am-active"><a href="#">$active li$</a></li>
-    <li class="am-disabled"><a href="#">$disabled li$</a></li>
+    <li class="am-dropdown-header">${2:标题}</li>
+    <li><a href="#">${3:li}</a></li>
+    <li class="am-active"><a href="#">${4:active li}</a></li>
+    <li class="am-disabled"><a href="#">${5:disabled li}</a></li>
     <li class="am-divider"></li>
   </ul>
 </div>
-]]></content><tabTrigger>am-dropdown:up</tabTrigger></snippet>
+
+    ]]>
+  </content>
+  <tabTrigger>am-dropdown:up</tabTrigger>
+</snippet>

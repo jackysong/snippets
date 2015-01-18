@@ -1,5 +1,12 @@
-<snippet><content><![CDATA[<div class="am-progress">
-  <div class="am-progress-bar am-progress-bar-secondary" style="width: 15%"></div>
+<snippet>
+  <content>
+    <![CDATA[
+<div class="am-progress">
+  <div class="am-progress-bar am-progress-bar-secondary" style="${1:width: 15%}"></div>
 </div>
 
-]]></content><tabTrigger>am-progress:secondary</tabTrigger></snippet>
+
+    ]]>
+  </content>
+  <tabTrigger>am-progress:secondary</tabTrigger>
+</snippet>

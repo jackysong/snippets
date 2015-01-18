@@ -1,15 +1,15 @@
 {{#unless className}}
 <label class="am-checkbox">
-  <input type="$checkbox$" value="" data-am-ucheck> title
+  <input type="$checkbox$" value="" data-am-ucheck> $title$
 </label>
 {{/unless}}
 {{#ifCond className '==' 'checked'}}
 <label class="am-checkbox">
-  <input type="$checkbox$" value="" data-am-ucheck checked> checked
+  <input type="$checkbox$" value="" data-am-ucheck checked> $checked$
 </label>
 {{/ifCond}}
 {{#ifCond className '==' 'disabled'}}
 <label class="am-checkbox">
-  <input type="$checkbox$" value="" data-am-ucheck disabled> disabled
+  <input type="$checkbox$" value="" data-am-ucheck disabled> $disabled$
 </label>
 {{/ifCond}}

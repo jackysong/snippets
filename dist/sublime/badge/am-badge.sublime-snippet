@@ -1,1 +1,8 @@
-<snippet><content><![CDATA[<span$END$ class="am-badge">小徽章 </span$END$>]]></content><tabTrigger>am-badge</tabTrigger></snippet>
+<snippet>
+  <content>
+    <![CDATA[
+<span class="am-badge">${1:小徽章}</span>
+    ]]>
+  </content>
+  <tabTrigger>am-badge</tabTrigger>
+</snippet>

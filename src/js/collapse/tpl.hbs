@@ -3,12 +3,12 @@
 <div class="am-panel-group" id="accordion">
   <div class="am-panel am-panel-default">
     <div class="am-panel-hd">
-      <h4 class="am-panel-title" data-am-collapse="{parent: '#accordion', target: '#do-not-say-1'}">
+      <h4 class="am-panel-title" data-am-collapse="{parent: '#accordion', target: '#$do-not-say-1$'}">
         $标题 #1$
       </h4>
     </div>
     <!-- 默认显示 -->
-    <div id="do-not-say-1" class="am-panel-collapse am-collapse am-in">
+    <div id="$do-not-say-1$" class="am-panel-collapse am-collapse am-in">
       <div class="am-panel-bd">
         $内容 #1$
       </div>
@@ -16,11 +16,11 @@
   </div>
   <div class="am-panel am-panel-default">
     <div class="am-panel-hd">
-      <h4 class="am-panel-title" data-am-collapse="{parent: '#accordion', target: '#do-not-say-2'}">
+      <h4 class="am-panel-title" data-am-collapse="{parent: '#$accordion$', target: '#$do-not-say-2$'}">
         $标题 #2$
       </h4>
     </div>
-    <div id="do-not-say-2" class="am-panel-collapse am-collapse">
+    <div id="$do-not-say-2$" class="am-panel-collapse am-collapse">
       <div class="am-panel-bd">
         $内容 #2$
       </div>
@@ -29,9 +29,9 @@
 </div>
 {{else}}
 <!-- 折叠菜单效果 -->
-<button class="am-btn am-btn-primary" data-am-collapse="{target: '#collapse-nav'}">$Menu$ <i class="am-icon-bars"></i></button>
+<button class="am-btn am-btn-primary" data-am-collapse="{target: '#$collapse-nav$'}">$Menu$ <i class="am-icon-bars"></i></button>
 <nav>
-  <ul id="collapse-nav" class="am-nav am-collapse">
+  <ul id="$collapse-nav$" class="am-nav am-collapse">
     <li><a href="">$标题$</a></li>
     <li class="am-active"><a href="">$active 标题$</a></li>
   </ul>

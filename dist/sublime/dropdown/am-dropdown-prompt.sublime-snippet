@@ -1,3 +1,10 @@
-<snippet><content><![CDATA[<!-- 触发 button -->
-<button class="am-btn am-btn-secondary" data-am-modal="{target: '#$my-actions$'}">prompt</button>
-]]></content><tabTrigger>am-dropdown:prompt</tabTrigger></snippet>
+<snippet>
+  <content>
+    <![CDATA[
+<!-- 触发 button -->
+<button class="am-btn am-btn-secondary" data-am-modal="{target: '#${1:my-id}'}">prompt</button>
+
+    ]]>
+  </content>
+  <tabTrigger>am-dropdown:prompt</tabTrigger>
+</snippet>

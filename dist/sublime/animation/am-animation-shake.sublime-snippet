@@ -1,1 +1,8 @@
-<snippet><content><![CDATA[<div class="am-animation-shake$ am-animation-reverse$">shake</div>]]></content><tabTrigger>am-animation:shake</tabTrigger></snippet>
+<snippet>
+  <content>
+    <![CDATA[
+<div class="am-animation-shake${1: am-animation-reverse}">shake</div>
+    ]]>
+  </content>
+  <tabTrigger>am-animation:shake</tabTrigger>
+</snippet>

@@ -1,5 +1,12 @@
-<snippet><content><![CDATA[<pre>
+<snippet>
+  <content>
+    <![CDATA[
+<pre>
 	<code>
-		
+		${1:code}
 	</code>
-</pre>]]></content><tabTrigger>am-code</tabTrigger></snippet>
+</pre>
+    ]]>
+  </content>
+  <tabTrigger>am-code</tabTrigger>
+</snippet>

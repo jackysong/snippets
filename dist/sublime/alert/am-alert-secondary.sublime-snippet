@@ -1,4 +1,11 @@
-<snippet><content><![CDATA[<div class="am-alert am-alert-secondary" data-am-alert>
+<snippet>
+  <content>
+    <![CDATA[
+<div class="am-alert am-alert-secondary" data-am-alert>
   <button type="button" class="am-close">&times;</button>
-  <p>内容 </p>
-</div>]]></content><tabTrigger>am-alert:secondary</tabTrigger></snippet>
+  <p>${1:内容}</p>
+</div>
+    ]]>
+  </content>
+  <tabTrigger>am-alert:secondary</tabTrigger>
+</snippet>

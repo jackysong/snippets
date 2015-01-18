@@ -1,0 +1,2118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="AmazeUI">
+  <template name="am-animation" value="&lt;div class=&quot;$var1$&quot;&gt;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-animation:fade" value="&lt;div class=&quot;am-animation-fade$var1$&quot;&gt;fade&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-animation:scale-up" value="&lt;div class=&quot;am-animation-scale-up$var1$&quot;&gt;scale-up&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-animation:scale-down" value="&lt;div class=&quot;am-animation-scale-down$var1$&quot;&gt;scale-down&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-animation:slide-top" value="&lt;div class=&quot;am-animation-slide-top$var1$&quot;&gt;slide-top&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-animation:slide-bottom" value="&lt;div class=&quot;am-animation-slide-bottom$var1$&quot;&gt;slide-bottom&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-animation:slide-left" value="&lt;div class=&quot;am-animation-slide-left$var1$&quot;&gt;slide-left&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-animation:slide-right" value="&lt;div class=&quot;am-animation-slide-right$var1$&quot;&gt;slide-right&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-animation:shake" value="&lt;div class=&quot;am-animation-shake$var1$&quot;&gt;shake&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-animation:spin" value="&lt;div class=&quot;am-animation-spin$var1$&quot;&gt;spin&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-article" value="&lt;article class=&quot;am-article&quot;&gt;
+  &lt;div class=&quot;am-article-hd&quot;&gt;
+    &lt;h1 class=&quot;am-article-title&quot;&gt;$var1$&lt;/h1&gt;
+    &lt;p class=&quot;am-article-meta&quot;&gt;$var2$&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;am-article-bd&quot;&gt;
+    &lt;p class=&quot;am-article-lead&quot;&gt;$var3$&lt;/p&gt;
+    $var4$
+  &lt;/div&gt;
+&lt;/article&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="meta" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="lead" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-avggrid" value="&lt;ul class=&quot;am-avg-sm-$var1$ am-avg-md-$var1$ am-avg-lg-$var1$&quot;&gt;
+  &lt;li&gt;$var4$&lt;/li&gt;
+&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-badge" value="&lt;span class=&quot;am-badge&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-badge:primary" value="&lt;span class=&quot;am-badge am-badge-primary&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-badge:secondary" value="&lt;span class=&quot;am-badge am-badge-secondary&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-badge:success" value="&lt;span class=&quot;am-badge am-badge-success&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-badge:warning" value="&lt;span class=&quot;am-badge am-badge-warning&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-badge:danger" value="&lt;span class=&quot;am-badge am-badge-danger&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-badge:xl" value="&lt;span class=&quot;am-badge am-badge-xl&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-badge:lg" value="&lt;span class=&quot;am-badge am-badge-lg&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-badge:sm" value="&lt;span class=&quot;am-badge am-badge-sm&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-badge:xs" value="&lt;span class=&quot;am-badge am-badge-xs&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-breadcrumb" value="&lt;ol class=&quot;am-breadcrumb&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
+  &lt;li class=&quot;am-active&quot;&gt;$var3$&lt;/li&gt;
+&lt;/ol&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="首页" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="分类" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn" value="&lt;button type=&quot;button&quot; class=&quot;am-btn&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn:default" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn:primary" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-primary&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn:secondary" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-secondary&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn:success" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-success&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn:warning" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-warning&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn:danger" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-danger&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn:xl" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-xl&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn:lg" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-lg&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn:sm" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-sm&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn:xs" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-xs&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn-group" value="  &lt;div class=&quot;am-btn-group&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;  
+  &lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn-group:lg" value="  &lt;div class=&quot;am-btn-group am-btn-group-lg&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;  
+  &lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn-group:sm" value="  &lt;div class=&quot;am-btn-group am-btn-group-sm&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;  
+  &lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn-group:xs" value="  &lt;div class=&quot;am-btn-group am-btn-group-xs&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;  
+  &lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn-group:stacked" value="  &lt;div class=&quot;am-btn-group-stacked&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;  
+  &lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn-group:justify" value="  &lt;div class=&quot;am-btn-group am-btn-group-justify&quot;&gt;
+    &lt;a class=&quot;am-btn am-btn-default&quot; role=&quot;button&quot;&gt;$var1$&lt;/a&gt;
+    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var2$&lt;/button&gt;  
+  &lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="自适应宽度" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-btn-group:toolbar" value="&lt;div class=&quot;am-btn-toolbar&quot;&gt;
+  &lt;div class=&quot;am-btn-group am-btn-group-toolbar&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;  
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-cdn" value="&lt;!-- Latest compiled and minified CSS & JS --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;//cdn.amazeui.org/amazeui/2.1.0/css/amazeui.min.css&quot;&gt;
+&lt;script src=&quot;//libs.useso.com/js/jquery/2.1.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;//cdn.amazeui.org/amazeui/2.1.0/js/amazeui.min.js&quot;&gt;&lt;/script&gt;
+" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-cdn:css" value="&lt;!-- Latest compiled and minified css --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;//cdn.amazeui.org/amazeui/2.1.0/css/amazeui.min.css&quot;&gt;
+" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-cdn:js" value="&lt;!-- Latest compiled and minified js --&gt;
+&lt;script src=&quot;//libs.useso.com/js/jquery/2.1.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;//cdn.amazeui.org/amazeui/2.1.0/js/amazeui.min.js&quot;&gt;&lt;/script&gt;
+" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-close" value="&lt;button type=&quot;button&quot; class=&quot;am-close&quot;&gt;&times;&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-close:spin" value="&lt;button type=&quot;button&quot; class=&quot;am-closeam-close-spin&quot;&gt;&times;&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-close:alt" value="&lt;button type=&quot;button&quot; class=&quot;am-closeam-close-alt&quot;&gt;&times;&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-code" value="&lt;pre&gt;
+	&lt;code&gt;
+		$var1$
+	&lt;/code&gt;
+&lt;/pre&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="code" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-code:scrollable" value="&lt;pre class=&quot;am-pre-scrollable&quot;&gt;
+	&lt;code&gt;
+		$var1$
+	&lt;/code&gt;
+&lt;/pre&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="code" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-comment" value="&lt;article class=&quot;am-comment&quot;&gt; &lt;!-- 评论容器 --&gt;
+  &lt;a href=&quot;&quot;&gt;
+    &lt;img class=&quot;am-comment-avatar&quot; alt=&quot;&quot;/&gt; &lt;!-- 评论者头像 --&gt;
+  &lt;/a&gt;
+
+  &lt;div class=&quot;am-comment-main&quot;&gt; &lt;!-- 评论内容容器 --&gt;
+    &lt;header class=&quot;am-comment-hd&quot;&gt;
+      &lt;!--&lt;h3 class=&quot;am-comment-title&quot;&gt;评论标题&lt;/h3&gt;--&gt;
+      &lt;div class=&quot;am-comment-meta&quot;&gt; &lt;!-- 评论元数据 --&gt;
+        &lt;a href=&quot;#link-to-user&quot; class=&quot;am-comment-author&quot;&gt;$var1$&lt;/a&gt; &lt;!-- 评论者 --&gt;
+        $var2$ &lt;time datetime=&quot;&quot;&gt;&lt;/time&gt;
+      &lt;/div&gt;
+    &lt;/header&gt;
+
+    &lt;div class=&quot;am-comment-bd&quot;&gt;$var3$&lt;/div&gt; &lt;!-- 评论内容 --&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="评论者" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="评论于" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="评论内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-form" value="&lt;form action=&quot;$var1$&quot; method=&quot;POST&quot; role=&quot;form&quot; class=&quot;am-form&quot;&gt;
+  &lt;legend&gt;$var2$&lt;/legend&gt;
+
+  &lt;div class=&quot;am-form-group&quot;&gt;
+    &lt;label for=&quot;&quot;&gt;$var3$&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;&quot; placeholder=&quot;$var3$&quot;&gt;
+  &lt;/div&gt;
+
+  &lt;button type=&quot;submit&quot; class=&quot;am-btn am-btn-primary&quot;&gt;$var5$&lt;/button&gt;
+&lt;/form&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="action" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="表单标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="姓名" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="姓名" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="提交" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-form:horizontal" value="&lt;form action=&quot;$var1$&quot; method=&quot;POST&quot; role=&quot;form&quot; class=&quot;am-form am-form-horizontal&quot;&gt;
+  &lt;!-- form 结合 grid 使用 --&gt;
+  &lt;div class=&quot;am-form-group&quot;&gt;
+    &lt;label for=&quot;&quot; class=&quot;am-u-sm-$var2$ am-form-label&quot;&gt;$var3$&lt;/label&gt;
+    &lt;div class=&quot;am-u-sm-10&quot;&gt;
+      &lt;input type=&quot;email&quot; id=&quot;&quot; placeholder=&quot;$var4$&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;am-form-group&quot;&gt;
+    &lt;div class=&quot;am-u-sm-$var5$ am-u-sm-offset-$var2$&quot;&gt;
+      &lt;button type=&quot;submit&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var7$&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/form&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="action" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="2" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="电子邮件" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="输入你的电子邮件" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="10" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="2" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="提交登入" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-form:inline" value="&lt;form action=&quot;$var1$&quot; method=&quot;POST&quot; role=&quot;form&quot; class=&quot;am-form am-form-inline&quot;&gt;
+  &lt;legend&gt;$var2$&lt;/legend&gt;
+
+  &lt;div class=&quot;am-form-group&quot;&gt;
+    &lt;label for=&quot;&quot;&gt;$var3$&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;&quot; placeholder=&quot;$var3$&quot;&gt;
+  &lt;/div&gt;
+
+  &lt;button type=&quot;submit&quot; class=&quot;am-btn am-btn-primary&quot;&gt;$var5$&lt;/button&gt;
+&lt;/form&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="action" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="表单标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="姓名" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="姓名" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="提交" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid" value="&lt;div class=&quot;am-g&quot;&gt;
+  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var1$ am-u-lg-$var1$&quot;&gt;
+    $var4$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:1" value="&lt;div class=&quot;am-g&quot;&gt;
+  &lt;div class=&quot;am-u-sm-1&quot;&gt;
+    $var1$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:2" value="&lt;div class=&quot;am-g am-g-2&quot;&gt;
+  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var1$ am-u-lg-$var1$&quot;&gt;
+    $var4$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:3" value="&lt;div class=&quot;am-g am-g-3&quot;&gt;
+  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var1$ am-u-lg-$var1$&quot;&gt;
+    $var4$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:4" value="&lt;div class=&quot;am-g am-g-4&quot;&gt;
+  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var1$ am-u-lg-$var1$&quot;&gt;
+    $var4$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:5" value="&lt;div class=&quot;am-g am-g-5&quot;&gt;
+  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var1$ am-u-lg-$var1$&quot;&gt;
+    $var4$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:6" value="&lt;div class=&quot;am-g am-g-6&quot;&gt;
+  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var1$ am-u-lg-$var1$&quot;&gt;
+    $var4$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:7" value="&lt;div class=&quot;am-g am-g-7&quot;&gt;
+  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var1$ am-u-lg-$var1$&quot;&gt;
+    $var4$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:8" value="&lt;div class=&quot;am-g am-g-8&quot;&gt;
+  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var1$ am-u-lg-$var1$&quot;&gt;
+    $var4$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:9" value="&lt;div class=&quot;am-g am-g-9&quot;&gt;
+  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var1$ am-u-lg-$var1$&quot;&gt;
+    $var4$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:10" value="&lt;div class=&quot;am-g&quot;&gt;
+  &lt;div class=&quot;am-u-sm-10&quot;&gt;
+    $var1$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:11" value="&lt;div class=&quot;am-g&quot;&gt;
+  &lt;div class=&quot;am-u-sm-11&quot;&gt;
+    $var1$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:12" value="&lt;div class=&quot;am-g&quot;&gt;
+  &lt;div class=&quot;am-u-sm-12&quot;&gt;
+    $var1$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:fixed" value="&lt;div class=&quot;am-g am-g-fixed&quot;&gt;
+  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var1$ am-u-lg-$var1$&quot;&gt;
+    $var4$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:collapse" value="&lt;div class=&quot;am-g am-g-collapse&quot;&gt;
+  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var1$ am-u-lg-$var1$&quot;&gt;
+    $var4$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-grid:container" value="&lt;div class=&quot;am-container&quot;&gt;
+  &lt;div class=&quot;am-g&quot;&gt;
+    &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var1$ am-u-lg-$var1$&quot;&gt;
+      $var4$
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-icon" value="&lt;span class=&quot;am-icon-$var1$&quot;&gt;$var2$&lt;/span&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="home" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="字体图标" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-icon:sm" value="&lt;span class=&quot;am-icon-$var1$ am-icon-sm&quot;&gt;$var2$&lt;/span&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="home" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="字体图标" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-icon:md" value="&lt;span class=&quot;am-icon-$var1$ am-icon-md&quot;&gt;$var2$&lt;/span&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="home" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="字体图标" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-icon:lg" value="&lt;span class=&quot;am-icon-$var1$ am-icon-lg&quot;&gt;$var2$&lt;/span&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="home" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="字体图标" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-icon:btn" value="&lt;span class=&quot;am-icon-$var1$ am-icon-btn&quot;&gt;$var2$&lt;/span&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="home" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="字体图标" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-icon:spin" value="&lt;span class=&quot;am-icon-$var1$ am-icon-spin&quot;&gt;$var2$&lt;/span&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="home" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="字体图标" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-img" value="&lt;img alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="imgsrc" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-img:radius" value="&lt;img class=&quot;am-radius&quot; alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="imgsrc" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-img:round" value="&lt;img class=&quot;am-round&quot; alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="imgsrc" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-img:circle" value="&lt;img class=&quot;am-circle&quot; alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="imgsrc" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-img:thumbnail" value="&lt;img class=&quot;am-img-thumbnail&quot; alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="imgsrc" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-input-group" value="&lt;div class=&quot;am-input-group&quot;&gt;
+  &lt;span class=&quot;am-input-group-label&quot;&gt;    
+    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    
+  &lt;/span&gt;
+  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-input-group:btn" value="&lt;div class=&quot;am-input-group am-input-group-btn&quot;&gt;
+  &lt;span class=&quot;am-input-group-btn&quot;&gt;
+    &lt;button class=&quot;am-btn am-btn-default&quot; type=&quot;button&quot;&gt;$var0$&lt;/button&gt;
+  &lt;/span&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var0" expression="&lt;span class=&quot;am-icon-search&quot;&gt;&lt;/span&gt;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-input-group:lg" value="&lt;div class=&quot;am-input-group am-input-group-lg&quot;&gt;
+  &lt;span class=&quot;am-input-group-label&quot;&gt;    
+    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    
+  &lt;/span&gt;
+  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-input-group:sm" value="&lt;div class=&quot;am-input-group am-input-group-sm&quot;&gt;
+  &lt;span class=&quot;am-input-group-label&quot;&gt;    
+    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    
+  &lt;/span&gt;
+  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-input-group:primary" value="&lt;div class=&quot;am-input-group am-input-group-primary&quot;&gt;
+  &lt;span class=&quot;am-input-group-label&quot;&gt;    
+    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    
+  &lt;/span&gt;
+  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-input-group:secondary" value="&lt;div class=&quot;am-input-group am-input-group-secondary&quot;&gt;
+  &lt;span class=&quot;am-input-group-label&quot;&gt;    
+    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    
+  &lt;/span&gt;
+  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-input-group:success" value="&lt;div class=&quot;am-input-group am-input-group-success&quot;&gt;
+  &lt;span class=&quot;am-input-group-label&quot;&gt;    
+    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    
+  &lt;/span&gt;
+  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-input-group:warning" value="&lt;div class=&quot;am-input-group am-input-group-warning&quot;&gt;
+  &lt;span class=&quot;am-input-group-label&quot;&gt;    
+    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    
+  &lt;/span&gt;
+  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-input-group:danger" value="&lt;div class=&quot;am-input-group am-input-group-danger&quot;&gt;
+  &lt;span class=&quot;am-input-group-label&quot;&gt;    
+    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    
+  &lt;/span&gt;
+  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-list" value="&lt;ul class=&quot;am-list&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="列表内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-list:border" value="&lt;ul class=&quot;am-list am-list-border&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="列表内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-list:striped" value="&lt;ul class=&quot;am-list am-list-striped&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="列表内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-list:static" value="&lt;ul class=&quot;am-list am-list-static&quot;&gt;
+  &lt;li&gt;&lt;!-- 纯文字列表 --&gt;$var1$ &lt;/li&gt;
+&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="列表内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-nav" value="&lt;ul class=&quot;am-nav&quot;&gt;
+  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="active" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="列表" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-nav:pills" value="&lt;ul class=&quot;am-nav am-nav-pills&quot;&gt;
+  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="active" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="列表" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-nav:tabs" value="&lt;ul class=&quot;am-nav am-nav-tabs&quot;&gt;
+  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="active" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="列表" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-nav:justify" value="&lt;ul class=&quot;am-nav am-nav-justify&quot;&gt;
+  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="active" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="列表" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-pagination" value="&lt;ul class=&quot;am-pagination&quot;&gt;
+  &lt;li class=&quot;am-disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;&laquo;&lt;/a&gt;&lt;/li&gt;
+  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&raquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="2" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="3" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-pagination:centered" value="&lt;ul class=&quot;am-pagination am-pagination-centered&quot;&gt;
+  &lt;li class=&quot;am-disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;&laquo;&lt;/a&gt;&lt;/li&gt;
+  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&raquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="2" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="3" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-pagination:right" value="&lt;ul class=&quot;am-pagination am-pagination-right&quot;&gt;
+  &lt;li class=&quot;am-disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;&laquo;&lt;/a&gt;&lt;/li&gt;
+  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&raquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="2" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="3" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-pagination:prevnext" value="&lt;ul class=&quot;am-pagination&quot;&gt;
+  &lt;li class=&quot;am-pagination-prev&quot;&gt;&lt;a href=&quot;#&quot;&gt;&laquo; Prev&lt;/a&gt;&lt;/li&gt;
+  &lt;li class=&quot;am-pagination-next&quot;&gt;&lt;a href=&quot;#&quot;&gt;Next &raquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-panel" value="&lt;section class=&quot;am-panel am-panel-default&quot;&gt;
+  &lt;header class=&quot;am-panel-hd&quot;&gt;
+    &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;
+  &lt;/header&gt;
+  &lt;div class=&quot;am-panel-bd&quot;&gt;
+    $var2$
+  &lt;/div&gt;
+  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;
+&lt;/section&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-panel:primary" value="&lt;section class=&quot;am-panel am-panel-primary&quot;&gt;
+  &lt;header class=&quot;am-panel-hd&quot;&gt;
+    &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;
+  &lt;/header&gt;
+  &lt;div class=&quot;am-panel-bd&quot;&gt;
+    $var2$
+  &lt;/div&gt;
+  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;
+&lt;/section&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-panel:secondary" value="&lt;section class=&quot;am-panel am-panel-secondary&quot;&gt;
+  &lt;header class=&quot;am-panel-hd&quot;&gt;
+    &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;
+  &lt;/header&gt;
+  &lt;div class=&quot;am-panel-bd&quot;&gt;
+    $var2$
+  &lt;/div&gt;
+  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;
+&lt;/section&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-panel:success" value="&lt;section class=&quot;am-panel am-panel-success&quot;&gt;
+  &lt;header class=&quot;am-panel-hd&quot;&gt;
+    &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;
+  &lt;/header&gt;
+  &lt;div class=&quot;am-panel-bd&quot;&gt;
+    $var2$
+  &lt;/div&gt;
+  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;
+&lt;/section&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-panel:warning" value="&lt;section class=&quot;am-panel am-panel-warning&quot;&gt;
+  &lt;header class=&quot;am-panel-hd&quot;&gt;
+    &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;
+  &lt;/header&gt;
+  &lt;div class=&quot;am-panel-bd&quot;&gt;
+    $var2$
+  &lt;/div&gt;
+  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;
+&lt;/section&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-panel:danger" value="&lt;section class=&quot;am-panel am-panel-danger&quot;&gt;
+  &lt;header class=&quot;am-panel-hd&quot;&gt;
+    &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;
+  &lt;/header&gt;
+  &lt;div class=&quot;am-panel-bd&quot;&gt;
+    $var2$
+  &lt;/div&gt;
+  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;
+&lt;/section&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-panel:group" value="&lt;div class=&quot;am-panel-group&quot;&gt;
+  &lt;section class=&quot;am-panel am-panel-default&quot;&gt;
+    &lt;header class=&quot;am-panel-hd&quot;&gt;
+      &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;
+    &lt;/header&gt;
+    &lt;div class=&quot;am-panel-bd&quot;&gt;
+      $var2$
+    &lt;/div&gt;
+    &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;
+  &lt;/section&gt;
+  &lt;section class=&quot;am-panel am-panel-default&quot;&gt;
+    &lt;header class=&quot;am-panel-hd&quot;&gt;
+      &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;
+    &lt;/header&gt;
+    &lt;div class=&quot;am-panel-bd&quot;&gt;
+      $var2$
+    &lt;/div&gt;
+    &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;
+  &lt;/section&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-panel:footer" value="&lt;section class=&quot;am-panel am-panel-default&quot;&gt;
+  &lt;div class=&quot;am-panel-bd&quot;&gt;
+    $var1$
+  &lt;/div&gt;
+  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var2$&lt;/footer&gt;
+&lt;/section&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-panel:list" value="&lt;section class=&quot;am-panel am-panel-default&quot;&gt;
+  &lt;div class=&quot;am-panel-bd&quot;&gt;
+    $var1$
+  &lt;/div&gt;
+  &lt;ul class=&quot;am-list am-list-static&quot;&gt;
+    &lt;li&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var2$&lt;/footer&gt;
+&lt;/section&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-panel:table" value="&lt;section class=&quot;am-panel am-panel-default&quot;&gt;
+  &lt;div class=&quot;am-panel-bd&quot;&gt;
+    $var1$
+  &lt;/div&gt;
+  &lt;table class=&quot;am-table&quot;&gt;
+    &lt;thead&gt;&lt;/thead&gt;
+    &lt;tbody&gt;&lt;/tbody&gt;
+  &lt;/table&gt;
+  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var2$&lt;/footer&gt;
+&lt;/section&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-progress" value="
+&lt;div class=&quot;am-progress&quot;&gt;
+  &lt;div class=&quot;am-progress-bar&quot; style=&quot;width: $var1$&quot;&gt;$var1$&lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="40%" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="40%" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-progress:secondary" value="&lt;div class=&quot;am-progress&quot;&gt;
+  &lt;div class=&quot;am-progress-bar am-progress-bar-secondary&quot; style=&quot;$var1$&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-progress:success" value="&lt;div class=&quot;am-progress&quot;&gt;
+  &lt;div class=&quot;am-progress-bar am-progress-bar-success&quot; style=&quot;$var1$&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-progress:warning" value="&lt;div class=&quot;am-progress&quot;&gt;
+  &lt;div class=&quot;am-progress-bar am-progress-bar-warning&quot; style=&quot;$var1$&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-progress:danger" value="&lt;div class=&quot;am-progress&quot;&gt;
+  &lt;div class=&quot;am-progress-bar am-progress-bar-danger&quot; style=&quot;$var1$&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-progress:xs" value="&lt;div class=&quot;am-progress am-progress-bar-xs&quot;&gt;
+  &lt;div class=&quot;am-progress-bar&quot; style=&quot;$var1$&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-progress:sm" value="&lt;div class=&quot;am-progress am-progress-bar-sm&quot;&gt;
+  &lt;div class=&quot;am-progress-bar&quot; style=&quot;$var1$&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-progress:striped" value="&lt;div class=&quot;am-progress am-progress-bar-striped&quot;&gt;
+  &lt;div class=&quot;am-progress-bar&quot; style=&quot;$var1$&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-table" value="&lt;table class=&quot;am-table$var1$&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;$var2$&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$var3$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;am-active&quot;&gt;
+      &lt;td&gt;$var3$&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-table-hover" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="表格标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-table:bordered" value="&lt;table class=&quot;am-table am-table-bordered$var1$&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;$var2$&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$var3$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;am-active&quot;&gt;
+      &lt;td&gt;$var3$&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-table-hover" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="表格标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-table:striped" value="&lt;table class=&quot;am-table am-table-striped$var1$&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;$var2$&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$var3$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;am-active&quot;&gt;
+      &lt;td&gt;$var3$&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-table-hover" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="表格标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-table:radius" value="&lt;table class=&quot;am-table am-table-radius$var1$&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;$var2$&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$var3$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;am-active&quot;&gt;
+      &lt;td&gt;$var3$&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=" am-table-hover" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="表格标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-template" value="&lt;!doctype html&gt;
+&lt;html class=&quot;no-js&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;$$var0$$var0$Amaze UI Examples$var0$Amaze UI$var0$your code$
+&lt;!-- Amaze UI JavaScript --&gt;
+
+&lt;!--[if lt IE 9]&gt;
+&lt;script src=&quot;http://libs.useso.com/js/jquery/1.11.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;//cdn.staticfile.org/modernizr/2.8.3/modernizr.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/js/polyfill/rem.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;//libs.useso.com/js/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;//cdn.amazeui.org/amazeui/2.1.0/js/amazeui.legacy.min.js&quot;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+
+&lt;!--[if (gte IE 9)|!(IE)]&gt;&lt;!--&gt;
+&lt;script src=&quot;//libs.useso.com/js/jquery/2.1.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;//cdn.amazeui.org/amazeui/2.1.0/js/amazeui.min.js&quot;&gt;&lt;/script&gt;
+&lt;!--&lt;![endif]--&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var0" expression="&quot;&gt;
+  &lt;meta name=&quot;keywords&quot; content=&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var0" expression="&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&gt;
+  &lt;title&gt;" defaultValue="" alwaysStopAt="true" />    <variable name="var0" expression="&lt;/title&gt;
+
+  &lt;!-- Set render engine for 360 browser --&gt;
+  &lt;meta name=&quot;renderer&quot; content=&quot;webkit&quot;&gt;
+
+  &lt;!-- No Baidu Siteapp--&gt;
+  &lt;meta http-equiv=&quot;Cache-Control&quot; content=&quot;no-siteapp&quot;/&gt;
+
+  &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;i/favicon.png&quot;&gt;
+
+  &lt;!-- Add to homescreen for Chrome on Android --&gt;
+  &lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+  &lt;link rel=&quot;icon&quot; sizes=&quot;192x192&quot; href=&quot;i/app-icon72x72@2x.png&quot;&gt;
+
+  &lt;!-- Add to homescreen for Safari on iOS --&gt;
+  &lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+  &lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black&quot;&gt;
+  &lt;meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var0" expression="&quot;/&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;i/app-icon72x72@2x.png&quot;&gt;
+
+  &lt;!-- Tile icon for Win8 (144x144 + tile color) --&gt;
+  &lt;meta name=&quot;msapplication-TileImage&quot; content=&quot;i/app-icon72x72@2x.png&quot;&gt;
+  &lt;meta name=&quot;msapplication-TileColor&quot; content=&quot;#0e90d2&quot;&gt;
+
+  &lt;!-- Amaze UI CSS --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;//cdn.amazeui.org/amazeui/2.1.0/css/amazeui.min.css&quot;&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-thumbnail" value="&lt;!-- 能结合 Grid、AVG Grid 使用 --&gt;
+&lt;div class=&quot;am-thumbnail&quot;&gt;
+  &lt;img src=&quot;&quot; alt=&quot;&quot;/&gt;
+  &lt;h3 class=&quot;am-thumbnail-caption&quot;&gt;$var1$&lt;/h3&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="图片标题" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-topbar" value="&lt;header class=&quot;am-topbar&quot;&gt;
+  &lt;h1 class=&quot;am-topbar-brand&quot;&gt;
+      &lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;
+  &lt;/h1&gt;
+  &lt;!-- screen &lt; 640 button show --&gt;
+  &lt;button class=&quot;am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only&quot; data-am-collapse=&quot;{target: '#doc-topbar-collapse'}&quot;&gt;&lt;span class=&quot;am-sr-only&quot;&gt;$var2$&lt;/span&gt; &lt;span class=&quot;am-icon-bars&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+
+  &lt;!-- screen &lt; 640 hide --&gt;
+  &lt;div class=&quot;am-collapse am-topbar-collapse&quot; id=&quot;doc-topbar-collapse&quot;&gt;
+    &lt;ul class=&quot;am-nav am-nav-pills am-topbar-nav&quot;&gt;
+      &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;
+      &lt;li class=&quot;am-dropdown&quot; data-am-dropdown&gt;
+        &lt;a class=&quot;am-dropdown-toggle&quot; data-am-dropdown-toggle href=&quot;javascript:;&quot;&gt;
+          下拉 &lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;ul class=&quot;am-dropdown-content&quot;&gt;
+          &lt;li class=&quot;am-dropdown-header&quot;&gt;$var4$&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;!-- topbar-right --&gt;
+    &lt;div class=&quot;am-topbar-right&quot;&gt;
+      &lt;button class=&quot;am-btn am-btn-primary am-topbar-btn am-btn-sm&quot;&gt;$var6$&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/header&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Topbar 导航条" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="导航切换" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="下拉列表 active" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="下拉列表01" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-topbar:inverse" value="&lt;header class=&quot;am-topbar am-topbar-inverse&quot;&gt;
+  &lt;h1 class=&quot;am-topbar-brand&quot;&gt;
+      &lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;
+  &lt;/h1&gt;
+  &lt;!-- screen &lt; 640 button show --&gt;
+  &lt;button class=&quot;am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only&quot; data-am-collapse=&quot;{target: '#doc-topbar-collapse'}&quot;&gt;&lt;span class=&quot;am-sr-only&quot;&gt;$var2$&lt;/span&gt; &lt;span class=&quot;am-icon-bars&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+
+  &lt;!-- screen &lt; 640 hide --&gt;
+  &lt;div class=&quot;am-collapse am-topbar-collapse&quot; id=&quot;doc-topbar-collapse&quot;&gt;
+    &lt;ul class=&quot;am-nav am-nav-pills am-topbar-nav&quot;&gt;
+      &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;
+      &lt;li class=&quot;am-dropdown&quot; data-am-dropdown&gt;
+        &lt;a class=&quot;am-dropdown-toggle&quot; data-am-dropdown-toggle href=&quot;javascript:;&quot;&gt;
+          下拉 &lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;ul class=&quot;am-dropdown-content&quot;&gt;
+          &lt;li class=&quot;am-dropdown-header&quot;&gt;$var4$&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;!-- topbar-right --&gt;
+    &lt;div class=&quot;am-topbar-right&quot;&gt;
+      &lt;button class=&quot;am-btn am-btn-primary am-topbar-btn am-btn-sm&quot;&gt;$var6$&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/header&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Topbar 导航条" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="导航切换" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="下拉列表 active" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="下拉列表01" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-topbar:fixed-top" value="&lt;header class=&quot;am-topbar am-topbar-fixed-top&quot;&gt;
+  &lt;h1 class=&quot;am-topbar-brand&quot;&gt;
+      &lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;
+  &lt;/h1&gt;
+  &lt;!-- screen &lt; 640 button show --&gt;
+  &lt;button class=&quot;am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only&quot; data-am-collapse=&quot;{target: '#doc-topbar-collapse'}&quot;&gt;&lt;span class=&quot;am-sr-only&quot;&gt;$var2$&lt;/span&gt; &lt;span class=&quot;am-icon-bars&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+
+  &lt;!-- screen &lt; 640 hide --&gt;
+  &lt;div class=&quot;am-collapse am-topbar-collapse&quot; id=&quot;doc-topbar-collapse&quot;&gt;
+    &lt;ul class=&quot;am-nav am-nav-pills am-topbar-nav&quot;&gt;
+      &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;
+      &lt;li class=&quot;am-dropdown&quot; data-am-dropdown&gt;
+        &lt;a class=&quot;am-dropdown-toggle&quot; data-am-dropdown-toggle href=&quot;javascript:;&quot;&gt;
+          下拉 &lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;ul class=&quot;am-dropdown-content&quot;&gt;
+          &lt;li class=&quot;am-dropdown-header&quot;&gt;$var4$&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;!-- topbar-right --&gt;
+    &lt;div class=&quot;am-topbar-right&quot;&gt;
+      &lt;button class=&quot;am-btn am-btn-primary am-topbar-btn am-btn-sm&quot;&gt;$var6$&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/header&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Topbar 导航条" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="导航切换" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="下拉列表 active" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="下拉列表01" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-topbar:fixed-bottom" value="&lt;header class=&quot;am-topbar am-topbar-fixed-bottom&quot;&gt;
+  &lt;h1 class=&quot;am-topbar-brand&quot;&gt;
+      &lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;
+  &lt;/h1&gt;
+  &lt;!-- screen &lt; 640 button show --&gt;
+  &lt;button class=&quot;am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only&quot; data-am-collapse=&quot;{target: '#doc-topbar-collapse'}&quot;&gt;&lt;span class=&quot;am-sr-only&quot;&gt;$var2$&lt;/span&gt; &lt;span class=&quot;am-icon-bars&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+
+  &lt;!-- screen &lt; 640 hide --&gt;
+  &lt;div class=&quot;am-collapse am-topbar-collapse&quot; id=&quot;doc-topbar-collapse&quot;&gt;
+    &lt;ul class=&quot;am-nav am-nav-pills am-topbar-nav&quot;&gt;
+      &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;
+      &lt;li class=&quot;am-dropdown&quot; data-am-dropdown&gt;
+        &lt;a class=&quot;am-dropdown-toggle&quot; data-am-dropdown-toggle href=&quot;javascript:;&quot;&gt;
+          下拉 &lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;ul class=&quot;am-dropdown-content&quot;&gt;
+          &lt;li class=&quot;am-dropdown-header&quot;&gt;$var4$&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;!-- topbar-right --&gt;
+    &lt;div class=&quot;am-topbar-right&quot;&gt;
+      &lt;button class=&quot;am-btn am-btn-primary am-topbar-btn am-btn-sm&quot;&gt;$var6$&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/header&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Topbar 导航条" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="导航切换" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="下拉列表 active" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="下拉列表01" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-alert" value="&lt;div class=&quot;am-alert&quot; data-am-alert&gt;
+  &lt;button type=&quot;button&quot; class=&quot;am-close&quot;&gt;&times;&lt;/button&gt;
+  &lt;p&gt;$var1$&lt;/p&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-alert:success" value="&lt;div class=&quot;am-alert am-alert-success&quot; data-am-alert&gt;
+  &lt;button type=&quot;button&quot; class=&quot;am-close&quot;&gt;&times;&lt;/button&gt;
+  &lt;p&gt;$var1$&lt;/p&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-alert:warning" value="&lt;div class=&quot;am-alert am-alert-warning&quot; data-am-alert&gt;
+  &lt;button type=&quot;button&quot; class=&quot;am-close&quot;&gt;&times;&lt;/button&gt;
+  &lt;p&gt;$var1$&lt;/p&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-alert:danger" value="&lt;div class=&quot;am-alert am-alert-danger&quot; data-am-alert&gt;
+  &lt;button type=&quot;button&quot; class=&quot;am-close&quot;&gt;&times;&lt;/button&gt;
+  &lt;p&gt;$var1$&lt;/p&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-alert:secondary" value="&lt;div class=&quot;am-alert am-alert-secondary&quot; data-am-alert&gt;
+  &lt;button type=&quot;button&quot; class=&quot;am-close&quot;&gt;&times;&lt;/button&gt;
+  &lt;p&gt;$var1$&lt;/p&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-collapse" value="&lt;!-- 折叠菜单效果 --&gt;
+&lt;button class=&quot;am-btn am-btn-primary&quot; data-am-collapse=&quot;{target: '#$var1$'}&quot;&gt;$var2$ &lt;i class=&quot;am-icon-bars&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;nav&gt;
+  &lt;ul id=&quot;$var1$&quot; class=&quot;am-nav am-collapse&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;$var4$&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="collapse-nav" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="Menu" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="collapse-nav" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="active 标题" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-collapse:accordion" value="&lt;!-- 手风琴折叠效果 --&gt;
+&lt;div class=&quot;am-panel-group&quot; id=&quot;accordion&quot;&gt;
+  &lt;div class=&quot;am-panel am-panel-default&quot;&gt;
+    &lt;div class=&quot;am-panel-hd&quot;&gt;
+      &lt;h4 class=&quot;am-panel-title&quot; data-am-collapse=&quot;{parent: '#accordion', target: '#$var1$'}&quot;&gt;
+        $var2$
+      &lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;!-- 默认显示 --&gt;
+    &lt;div id=&quot;$var1$&quot; class=&quot;am-panel-collapse am-collapse am-in&quot;&gt;
+      &lt;div class=&quot;am-panel-bd&quot;&gt;
+        $var4$
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;am-panel am-panel-default&quot;&gt;
+    &lt;div class=&quot;am-panel-hd&quot;&gt;
+      &lt;h4 class=&quot;am-panel-title&quot; data-am-collapse=&quot;{parent: '#$var5$', target: '#$var6$'}&quot;&gt;
+        $var7$
+      &lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;$var6$&quot; class=&quot;am-panel-collapse am-collapse&quot;&gt;
+      &lt;div class=&quot;am-panel-bd&quot;&gt;
+        $var9$
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="do-not-say-1" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="标题 #1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="do-not-say-1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容 #1" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="accordion" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="do-not-say-2" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="标题 #2" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="do-not-say-2" defaultValue="" alwaysStopAt="true" />    <variable name="var9" expression="内容 #2" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-datapicker" value="&lt;p&gt;&lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot; data-am-datepicker /&gt;&lt;/p&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="日历组件" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-datapicker:group" value="&lt;div class=&quot;am-input-group am-datepicker-date&quot; data-am-datepicker&gt;
+  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot; readonly&gt;
+  &lt;span class=&quot;am-input-group-btn am-datepicker-add-on&quot;&gt;
+    &lt;button class=&quot;am-btn am-btn-default&quot; type=&quot;button&quot;&gt;&lt;span class=&quot;am-icon-calendar&quot;&gt;&lt;/span&gt; &lt;/button&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="日历组件" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-dropdown" value="&lt;div class=&quot;am-dropdown&quot; data-am-dropdown&gt;
+&lt;button class=&quot;am-btn am-btn-primary am-dropdown-toggle&quot; data-am-dropdown-toggle&gt;$var1$ &lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+  &lt;ul class=&quot;am-dropdown-content&quot;&gt;
+    &lt;li class=&quot;am-dropdown-header&quot;&gt;$var2$&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var4$&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;am-disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;am-divider&quot;&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="下拉列表" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="li" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="active li" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="disabled li" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-dropdown:up" value="&lt;div class=&quot;am-dropdown am-dropdown-up&quot; data-am-dropdown&gt;
+  &lt;button class=&quot;am-btn am-btn-danger am-dropdown-toggle&quot; data-am-dropdown-toggle&gt;$var1$ &lt;span class=&quot;am-icon-caret-up&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+  &lt;ul class=&quot;am-dropdown-content&quot;&gt;
+    &lt;li class=&quot;am-dropdown-header&quot;&gt;$var2$&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var4$&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;am-disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;am-divider&quot;&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="上拉列表" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="li" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="active li" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="disabled li" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-dropdown:content" value="&lt;div class=&quot;am-dropdown&quot; data-am-dropdown&gt;
+  &lt;button class=&quot;am-btn am-btn-success am-dropdown-toggle&quot;&gt;$var1$ &lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+  &lt;div class=&quot;am-dropdown-content&quot;&gt;
+    $var2$
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Dropdown" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-dropdown:justify" value="&lt;div id=&quot;$var1$&quot;&gt;
+  &lt;div class=&quot;am-dropdown&quot; data-am-dropdown=&quot;{justify: '#$var1$'}&quot;&gt;
+    &lt;button class=&quot;am-btn am-btn-success am-dropdown-toggle&quot;&gt;$var3$&lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+    &lt;div class=&quot;am-dropdown-content&quot;&gt;
+      &lt;h2&gt;$var4$&lt;/h2&gt;
+      &lt;p&gt;
+        $var5$
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="doc-dropdown-justify" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="doc-dropdown-justify" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="宽度适应下拉" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="I am what I am" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-dropdown" value="&lt;!-- 触发 button --&gt;
+&lt;button class=&quot;am-btn am-btn-primary&quot; data-am-modal&gt;$var1$&lt;/button&gt;
+&lt;div class=&quot;am-modal am-modal-no-btn&quot; tabindex=&quot;-1&quot;&gt;
+  &lt;div class=&quot;am-modal-dialog&quot;&gt;
+    &lt;div class=&quot;am-modal-hd&quot;&gt;$var2$
+      &lt;a href=&quot;javascript: void(0)&quot; class=&quot;am-close am-close-spin&quot; data-am-modal-close&gt;&times;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;am-modal-bd&quot;&gt;
+      $var3$
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Modal" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="Modal 标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="Modal 内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-dropdown:alert" value="&lt;!-- 触发 button --&gt;
+&lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;alert&lt;/button&gt;
+&lt;div class=&quot;am-modal am-modal-alert&quot; tabindex=&quot;-1&quot; id=&quot;$var2$&quot;&gt;
+  &lt;div class=&quot;am-modal-dialog&quot;&gt;
+    &lt;div class=&quot;am-modal-hd&quot;&gt;$var3$&lt;/div&gt;
+    &lt;div class=&quot;am-modal-bd&quot;&gt;
+      $var4$
+    &lt;/div&gt;
+    &lt;div class=&quot;am-modal-footer&quot;&gt;
+      &lt;span class=&quot;am-modal-btn&quot;&gt;确定&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="my-id" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="my-alert" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="Modal Alert 标题" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="Hello world！" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-dropdown:confirm" value="&lt;!-- 触发 button --&gt;
+&lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;confirm&lt;/button&gt;
+&lt;div class=&quot;am-modal am-modal-confirm&quot; tabindex=&quot;-1&quot; id=&quot;$var2$&quot;&gt;
+  &lt;div class=&quot;am-modal-dialog&quot;&gt;
+    &lt;div class=&quot;am-modal-hd&quot;&gt;$var3$&lt;/div&gt;
+    &lt;div class=&quot;am-modal-bd&quot;&gt;
+      $var4$
+    &lt;/div&gt;
+    &lt;div class=&quot;am-modal-footer&quot;&gt;
+      &lt;span class=&quot;am-modal-btn&quot; data-am-modal-cancel&gt;取消&lt;/span&gt;
+      &lt;span class=&quot;am-modal-btn&quot; data-am-modal-confirm&gt;确定&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;am-modal am-modal-prompt&quot; tabindex=&quot;-1&quot; id=&quot;$var5$&quot;&gt;
+  &lt;div class=&quot;am-modal-dialog&quot;&gt;
+    &lt;div class=&quot;am-modal-hd&quot;&gt;$var6$&lt;/div&gt;
+    &lt;div class=&quot;am-modal-bd&quot;&gt;
+      $var4$
+      &lt;input type=&quot;text&quot; class=&quot;am-modal-prompt-input&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;am-modal-footer&quot;&gt;
+      &lt;span class=&quot;am-modal-btn&quot; data-am-modal-cancel&gt;取消&lt;/span&gt;
+      &lt;span class=&quot;am-modal-btn&quot; data-am-modal-confirm&gt;提交&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="my-id" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="my-confirm" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="confirm title" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="my-prompt" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-dropdown:prompt" value="&lt;!-- 触发 button --&gt;
+&lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;prompt&lt;/button&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="my-id" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-dropdown:loading" value="&lt;!-- 触发 button --&gt;
+&lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;loading&lt;/button&gt;
+&lt;div class=&quot;am-modal am-modal-loading am-modal-no-btn&quot; tabindex=&quot;-1&quot; id=&quot;$var2$&quot;&gt;
+  &lt;div class=&quot;am-modal-dialog&quot;&gt;
+    &lt;div class=&quot;am-modal-hd&quot;&gt;$var3$&lt;/div&gt;
+    &lt;div class=&quot;am-modal-bd&quot;&gt;
+      &lt;span class=&quot;am-icon-spinner am-icon-spin&quot;&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="my-id" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="my-modal-loading" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="正在载入..." defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-dropdown:actions" value="&lt;!-- 触发 button --&gt;
+&lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;actions&lt;/button&gt;
+&lt;div class=&quot;am-modal-actions&quot; id=&quot;$var2$&quot;&gt;
+  &lt;div class=&quot;am-modal-actions-group&quot;&gt;
+    &lt;ul class=&quot;am-list&quot;&gt;
+      &lt;li class=&quot;am-modal-actions-header&quot;&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span class=&quot;am-icon-$var3$&quot;&gt;&lt;/span&gt;$var4$&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;am-icon-$var5$&quot;&gt;&lt;/i&gt;$var6$&lt;/a&gt;&lt;/li&gt;
+      &lt;li class=&quot;am-modal-actions-danger&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;am-icon-$var7$&quot;&gt;&lt;/i&gt; $var8$ &lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;am-modal-actions-group&quot;&gt;
+    &lt;button class=&quot;am-btn am-btn-secondary am-btn-block&quot; data-am-modal-close&gt;$var9$&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="my-id" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="my-actions" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="wechat" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="wechat 标题" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="mobile" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="mobile 标题" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="twitter" defaultValue="" alwaysStopAt="true" />    <variable name="var8" expression="twitter 标题" defaultValue="" alwaysStopAt="true" />    <variable name="var9" expression="取消" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-dropdown:popup" value="&lt;!-- 触发 button --&gt;
+&lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;popup&lt;/button&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="my-id" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-offCanvas" value="&lt;!-- 按钮触发器 --&gt;
+&lt;button class=&quot;am-btn am-btn-primary&quot; data-am-offcanvas=&quot;{target: '#$var1$'}&quot;&gt;$var2$&lt;/button&gt;
+&lt;!-- 侧边栏内容 --&gt;
+&lt;div id=&quot;$var1$&quot; class=&quot;am-offcanvas&quot;&gt;
+  &lt;div class=&quot;am-offcanvas-bar&quot;&gt;
+    &lt;div class=&quot;am-offcanvas-content&quot;&gt;
+    &lt;!-- 你的内容 --&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="your-id" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="点击显示侧边栏" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="your-id" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-offCanvas:flip" value="&lt;!-- 按钮触发器 --&gt;
+&lt;button class=&quot;am-btn am-btn-primary&quot; data-am-offcanvas=&quot;{target: '#$var1$'}&quot;&gt;$var2$&lt;/button&gt;
+&lt;!-- 侧边栏内容 --&gt;
+&lt;div id=&quot;$var1$&quot; class=&quot;am-offcanvas&quot;&gt;
+  &lt;div class=&quot;am-offcanvas-bar am-offcanvas-bar-flip&quot;&gt;
+    &lt;div class=&quot;am-offcanvas-content&quot;&gt;
+    &lt;!-- 你的内容 --&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="your-id" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="点击显示侧边栏" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="your-id" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-popover" value="&lt;button class=&quot;am-btn am-btn-success&quot; data-am-popover=&quot;{content: '$var1$', trigger: 'hover focus'}&quot;&gt;
+  $var2$
+&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="Popover" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy" value="&lt;div data-am-scrollspy=&quot;'{animation: ''$var1$'}&quot;&gt;
+  $var2$
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:fade" value="&lt;div data-am-scrollspy=&quot;'{animation: 'fade'$var1$'}&quot;&gt;
+  $var2$
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:scale-up" value="&lt;div data-am-scrollspy=&quot;'{animation: 'scale-up'$var1$'}&quot;&gt;
+  $var2$
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:scale-down" value="&lt;div data-am-scrollspy=&quot;'{animation: 'scale-down'$var1$'}&quot;&gt;
+  $var2$
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:slide-top" value="&lt;div data-am-scrollspy=&quot;'{animation: 'slide-top'$var1$'}&quot;&gt;
+  $var2$
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:slide-bottom" value="&lt;div data-am-scrollspy=&quot;'{animation: 'slide-bottom'$var1$'}&quot;&gt;
+  $var2$
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:slide-left" value="&lt;div data-am-scrollspy=&quot;'{animation: 'slide-left'$var1$'}&quot;&gt;
+  $var2$
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:slide-right" value="&lt;div data-am-scrollspy=&quot;'{animation: 'slide-right'$var1$'}&quot;&gt;
+  $var2$
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:shake" value="&lt;div data-am-scrollspy=&quot;'{animation: 'shake'$var1$'}&quot;&gt;
+  $var2$
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy-nav" value="&lt;nav class=&quot;scrollspy-nav&quot; data-am-scrollspy-nav data-am-sticky&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;#$var1$&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;div id=&quot;$var1$&quot;&gt;
+  $var4$
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="侦测滚动" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-select" value="&lt;select data-am-selected&gt;
+  &lt;option value=&quot;$var1$&quot;&gt;$var2$&lt;/option&gt;
+  &lt;option value=&quot;$var1$&quot; selected&gt;$var4$&lt;/option&gt;
+&lt;/select&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="selected" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-select:multiple" value="&lt;select multiple data-am-selected&gt;
+  &lt;option value=&quot;$var1$&quot;&gt;$var2$&lt;/option&gt;
+  &lt;option value=&quot;$var1$&quot; selected&gt;$var4$&lt;/option&gt;
+&lt;/select&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="selected" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-select:group" value="&lt;select multiple data-am-selected&gt;
+  &lt;optgroup label=&quot;group1&quot;&gt;
+    &lt;option value=&quot;$var1$&quot;&gt;$var2$&lt;/option&gt;
+    &lt;option value=&quot;$var1$&quot; selected&gt;$var4$&lt;/option&gt;
+  &lt;/optgroup&gt;
+  &lt;optgroup label=&quot;group2&quot;&gt;
+    &lt;option value=&quot;$var1$&quot;&gt;$var2$&lt;/option&gt;
+    &lt;option value=&quot;$var1$&quot; selected&gt;$var4$&lt;/option&gt;
+  &lt;/optgroup&gt;
+&lt;/select&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="selected" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="selected" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-slider" value="&lt;div class=&quot;am-slider am-slider-default&quot; data-am-flexslider&gt;
+  &lt;ul class=&quot;am-slides&quot;&gt;
+    &lt;li&gt;&lt;img src=&quot;$var1$&quot; /&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="img src" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-smoothscroll" value="&lt;button data-am-smooth-scroll type=&quot;button&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="滚动到顶部" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-tabs" value="&lt;div data-am-sticky&gt;
+  &lt;button class=&quot;am-btn am-btn-primary am-btn-block&quot;&gt;$var1$&lt;/button&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="Stick to top" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-sticky" value="&lt;div class=&quot;am-tabs&quot; data-am-tabs&gt;
+  &lt;ul class=&quot;am-tabs-nav am-nav am-nav-tabs&quot;&gt;
+    &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#tab1&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#tab2&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;div class=&quot;am-tabs-bd&quot;&gt;
+    &lt;div class=&quot;am-tab-panel am-fade am-in am-active&quot; id=&quot;tab1&quot;&gt;
+      $var3$
+    &lt;/div&gt;
+    &lt;div class=&quot;am-tab-panel am-fade&quot; id=&quot;tab2&quot;&gt;
+      $var4$
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="active 标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="active 内容" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-ucheck" value="&lt;label class=&quot;am-checkbox&quot;&gt;
+  &lt;input type=&quot;$var1$&quot; value=&quot;&quot; data-am-ucheck&gt; $var2$
+&lt;/label&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="checkbox" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="title" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-ucheck:checked" value="&lt;label class=&quot;am-checkbox&quot;&gt;
+  &lt;input type=&quot;$var1$&quot; value=&quot;&quot; data-am-ucheck checked&gt; $var2$
+&lt;/label&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="checkbox" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="checked" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>  <template name="am-ucheck:disabled" value="&lt;label class=&quot;am-checkbox&quot;&gt;
+  &lt;input type=&quot;$var1$&quot; value=&quot;&quot; data-am-ucheck disabled&gt; $var2$
+&lt;/label&gt;
+" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="checkbox" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="disabled" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

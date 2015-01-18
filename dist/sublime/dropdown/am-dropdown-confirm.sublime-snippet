@@ -1,10 +1,13 @@
-<snippet><content><![CDATA[<!-- 触发 button -->
-<button class="am-btn am-btn-secondary" data-am-modal="{target: '#$my-actions$'}">confirm</button>
-<div class="am-modal am-modal-confirm" tabindex="-1" id="$my-confirm$">
+<snippet>
+  <content>
+    <![CDATA[
+<!-- 触发 button -->
+<button class="am-btn am-btn-secondary" data-am-modal="{target: '#${1:my-id}'}">confirm</button>
+<div class="am-modal am-modal-confirm" tabindex="-1" id="${2:my-confirm}">
   <div class="am-modal-dialog">
-    <div class="am-modal-hd">confirm title</div>
+    <div class="am-modal-hd">${3:confirm title}</div>
     <div class="am-modal-bd">
-      内容
+      ${4:内容}
     </div>
     <div class="am-modal-footer">
       <span class="am-modal-btn" data-am-modal-cancel>取消</span>
@@ -12,11 +15,11 @@
     </div>
   </div>
 </div>
-<div class="am-modal am-modal-prompt" tabindex="-1" id="$my-prompt$">
+<div class="am-modal am-modal-prompt" tabindex="-1" id="${5:my-prompt}">
   <div class="am-modal-dialog">
-    <div class="am-modal-hd">标题 </div>
+    <div class="am-modal-hd">${6:标题}</div>
     <div class="am-modal-bd">
-      内容
+      ${4:内容}
       <input type="text" class="am-modal-prompt-input">
     </div>
     <div class="am-modal-footer">
@@ -25,4 +28,8 @@
     </div>
   </div>
 </div>
-]]></content><tabTrigger>am-dropdown:confirm</tabTrigger></snippet>
+
+    ]]>
+  </content>
+  <tabTrigger>am-dropdown:confirm</tabTrigger>
+</snippet>

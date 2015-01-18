@@ -1,5 +1,12 @@
-<snippet><content><![CDATA[<div class="am-slider am-slider-default" data-am-flexslider>
+<snippet>
+  <content>
+    <![CDATA[
+<div class="am-slider am-slider-default" data-am-flexslider>
   <ul class="am-slides">
-    <li><img src="$END$" /></li>
+    <li><img src="${1:img src}" /></li>
   </ul>
-</div>]]></content><tabTrigger>am-slider</tabTrigger></snippet>
+</div>
+    ]]>
+  </content>
+  <tabTrigger>am-slider</tabTrigger>
+</snippet>
