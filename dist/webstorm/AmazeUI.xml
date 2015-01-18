@@ -2,70 +2,70 @@
 <templateSet group="AmazeUI">
   <template name="am-animation" value="&lt;div class=&quot;$var1$&quot;&gt;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-animation:fade" value="&lt;div class=&quot;am-animation-fade$var1$&quot;&gt;fade&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-animation:scale-up" value="&lt;div class=&quot;am-animation-scale-up$var1$&quot;&gt;scale-up&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-animation:scale-down" value="&lt;div class=&quot;am-animation-scale-down$var1$&quot;&gt;scale-down&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-animation:slide-top" value="&lt;div class=&quot;am-animation-slide-top$var1$&quot;&gt;slide-top&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-animation:slide-bottom" value="&lt;div class=&quot;am-animation-slide-bottom$var1$&quot;&gt;slide-bottom&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-animation:slide-left" value="&lt;div class=&quot;am-animation-slide-left$var1$&quot;&gt;slide-left&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-animation:slide-right" value="&lt;div class=&quot;am-animation-slide-right$var1$&quot;&gt;slide-right&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-animation:shake" value="&lt;div class=&quot;am-animation-shake$var1$&quot;&gt;shake&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-animation:spin" value="&lt;div class=&quot;am-animation-spin$var1$&quot;&gt;spin&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-animation-reverse" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -82,7 +82,7 @@
   &lt;/div&gt;
 &lt;/article&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="meta" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="lead" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;meta&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;lead&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -91,77 +91,77 @@
   &lt;li&gt;$var4$&lt;/li&gt;
 &lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-badge" value="&lt;span class=&quot;am-badge&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-badge:primary" value="&lt;span class=&quot;am-badge am-badge-primary&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-badge:secondary" value="&lt;span class=&quot;am-badge am-badge-secondary&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-badge:success" value="&lt;span class=&quot;am-badge am-badge-success&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-badge:warning" value="&lt;span class=&quot;am-badge am-badge-warning&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-badge:danger" value="&lt;span class=&quot;am-badge am-badge-danger&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-badge:xl" value="&lt;span class=&quot;am-badge am-badge-xl&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-badge:lg" value="&lt;span class=&quot;am-badge am-badge-lg&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-badge:sm" value="&lt;span class=&quot;am-badge am-badge-sm&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-badge:xs" value="&lt;span class=&quot;am-badge am-badge-xs&quot;&gt;$var1$&lt;/span&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="小徽章" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -173,84 +173,84 @@
 &lt;/ol&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="首页" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="分类" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;首页&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;分类&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-btn" value="&lt;button type=&quot;button&quot; class=&quot;am-btn&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-btn:default" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-btn:primary" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-primary&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-btn:secondary" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-secondary&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-btn:success" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-success&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-btn:warning" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-warning&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-btn:danger" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-danger&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-btn:xl" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-xl&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-btn:lg" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-lg&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-btn:sm" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-sm&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-btn:xs" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-xs&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -260,7 +260,7 @@
   &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -270,7 +270,7 @@
   &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -280,7 +280,7 @@
   &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -290,7 +290,7 @@
   &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -300,7 +300,7 @@
   &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -311,7 +311,7 @@
   &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="自适应宽度" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;自适应宽度&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -323,7 +323,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="按钮组" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -385,7 +385,7 @@
 	&lt;/code&gt;
 &lt;/pre&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="code" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;code&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -396,7 +396,7 @@
 	&lt;/code&gt;
 &lt;/pre&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="code" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;code&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -420,7 +420,7 @@
 &lt;/article&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="评论者" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="评论于" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="评论内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;评论者&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;评论于&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;评论内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -436,7 +436,7 @@
   &lt;button type=&quot;submit&quot; class=&quot;am-btn am-btn-primary&quot;&gt;$var5$&lt;/button&gt;
 &lt;/form&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="action" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="表单标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="姓名" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="姓名" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="提交" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;action&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;表单标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;姓名&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;姓名&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;提交&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -457,7 +457,7 @@
   &lt;/div&gt;
 &lt;/form&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="action" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="2" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="电子邮件" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="输入你的电子邮件" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="10" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="2" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="提交登入" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;action&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;电子邮件&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;输入你的电子邮件&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;10&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="&quot;提交登入&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -473,7 +473,7 @@
   &lt;button type=&quot;submit&quot; class=&quot;am-btn am-btn-primary&quot;&gt;$var5$&lt;/button&gt;
 &lt;/form&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="action" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="表单标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="姓名" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="姓名" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="提交" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;action&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;表单标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;姓名&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;姓名&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;提交&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -485,7 +485,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -497,7 +497,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -509,7 +509,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -521,7 +521,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -533,7 +533,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -545,7 +545,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -557,7 +557,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -569,7 +569,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -581,7 +581,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -593,7 +593,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -605,7 +605,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -617,7 +617,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -629,7 +629,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -641,7 +641,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -653,7 +653,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -667,7 +667,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -675,7 +675,7 @@
   </template>  <template name="am-icon" value="&lt;span class=&quot;am-icon-$var1$&quot;&gt;$var2$&lt;/span&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="home" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="字体图标" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;字体图标&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -683,7 +683,7 @@
   </template>  <template name="am-icon:sm" value="&lt;span class=&quot;am-icon-$var1$ am-icon-sm&quot;&gt;$var2$&lt;/span&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="home" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="字体图标" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;字体图标&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -691,7 +691,7 @@
   </template>  <template name="am-icon:md" value="&lt;span class=&quot;am-icon-$var1$ am-icon-md&quot;&gt;$var2$&lt;/span&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="home" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="字体图标" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;字体图标&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -699,7 +699,7 @@
   </template>  <template name="am-icon:lg" value="&lt;span class=&quot;am-icon-$var1$ am-icon-lg&quot;&gt;$var2$&lt;/span&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="home" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="字体图标" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;字体图标&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -707,7 +707,7 @@
   </template>  <template name="am-icon:btn" value="&lt;span class=&quot;am-icon-$var1$ am-icon-btn&quot;&gt;$var2$&lt;/span&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="home" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="字体图标" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;字体图标&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -715,7 +715,7 @@
   </template>  <template name="am-icon:spin" value="&lt;span class=&quot;am-icon-$var1$ am-icon-spin&quot;&gt;$var2$&lt;/span&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="home" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="字体图标" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;字体图标&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -723,7 +723,7 @@
   </template>  <template name="am-img" value="&lt;img alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="imgsrc" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;imgsrc&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -731,7 +731,7 @@
   </template>  <template name="am-img:radius" value="&lt;img class=&quot;am-radius&quot; alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="imgsrc" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;imgsrc&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -739,7 +739,7 @@
   </template>  <template name="am-img:round" value="&lt;img class=&quot;am-round&quot; alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="imgsrc" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;imgsrc&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -747,7 +747,7 @@
   </template>  <template name="am-img:circle" value="&lt;img class=&quot;am-circle&quot; alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="imgsrc" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;imgsrc&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -755,7 +755,7 @@
   </template>  <template name="am-img:thumbnail" value="&lt;img class=&quot;am-img-thumbnail&quot; alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="imgsrc" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;imgsrc&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -767,7 +767,7 @@
   &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -778,7 +778,7 @@
   &lt;/span&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var0" expression="&lt;span class=&quot;am-icon-search&quot;&gt;&lt;/span&gt;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var0" expression="&quot;&lt;span class=&quot;am-icon-search&quot;&gt;&lt;/span&gt;&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -790,7 +790,7 @@
   &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -802,7 +802,7 @@
   &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -814,7 +814,7 @@
   &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -826,7 +826,7 @@
   &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -838,7 +838,7 @@
   &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -850,7 +850,7 @@
   &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -862,7 +862,7 @@
   &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Username" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -871,7 +871,7 @@
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="列表内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;列表内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -880,7 +880,7 @@
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="列表内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;列表内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -889,7 +889,7 @@
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="列表内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;列表内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -898,7 +898,7 @@
   &lt;li&gt;&lt;!-- 纯文字列表 --&gt;$var1$ &lt;/li&gt;
 &lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="列表内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;列表内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -908,7 +908,7 @@
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="active" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="列表" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;active&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;列表&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -918,7 +918,7 @@
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="active" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="列表" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;active&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;列表&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -928,7 +928,7 @@
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="active" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="列表" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;active&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;列表&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -938,7 +938,7 @@
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="active" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="列表" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;active&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;列表&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -952,7 +952,7 @@
 &lt;/ul&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="2" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="3" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -966,7 +966,7 @@
 &lt;/ul&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="2" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="3" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -980,7 +980,7 @@
 &lt;/ul&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="1" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="2" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="3" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1007,7 +1007,7 @@
 &lt;/section&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1023,7 +1023,7 @@
 &lt;/section&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1039,7 +1039,7 @@
 &lt;/section&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1055,7 +1055,7 @@
 &lt;/section&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1071,7 +1071,7 @@
 &lt;/section&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1087,7 +1087,7 @@
 &lt;/section&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1114,7 +1114,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="面板标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1127,7 +1127,7 @@
 &lt;/section&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1143,7 +1143,7 @@
 &lt;/section&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1160,7 +1160,7 @@
 &lt;/section&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="面板内容" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="面板页脚" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1171,7 +1171,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="40%" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="40%" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;40%&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;40%&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1182,7 +1182,7 @@
 
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1193,7 +1193,7 @@
 
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1204,7 +1204,7 @@
 
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1215,7 +1215,7 @@
 
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1226,7 +1226,7 @@
 
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1237,7 +1237,7 @@
 
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1248,7 +1248,7 @@
 
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="width: 15%" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1269,7 +1269,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-table-hover" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="表格标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-table-hover&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;表格标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;表格内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;表格内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1290,7 +1290,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-table-hover" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="表格标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-table-hover&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;表格标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;表格内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;表格内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1311,7 +1311,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-table-hover" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="表格标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-table-hover&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;表格标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;表格内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;表格内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1332,7 +1332,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=" am-table-hover" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="表格标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="表格内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot; am-table-hover&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;表格标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;表格内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;表格内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1361,10 +1361,10 @@
 &lt;/body&gt;
 &lt;/html&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var0" expression="&quot;&gt;
-  &lt;meta name=&quot;keywords&quot; content=&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var0" expression="&quot;&gt;
+    <variable name="var0" expression="&quot;&quot;&gt;
+  &lt;meta name=&quot;keywords&quot; content=&quot;&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var0" expression="&quot;&quot;&gt;
   &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&gt;
-  &lt;title&gt;" defaultValue="" alwaysStopAt="true" />    <variable name="var0" expression="&lt;/title&gt;
+  &lt;title&gt;&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var0" expression="&quot;&lt;/title&gt;
 
   &lt;!-- Set render engine for 360 browser --&gt;
   &lt;meta name=&quot;renderer&quot; content=&quot;webkit&quot;&gt;
@@ -1381,7 +1381,7 @@
   &lt;!-- Add to homescreen for Safari on iOS --&gt;
   &lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
   &lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black&quot;&gt;
-  &lt;meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var0" expression="&quot;/&gt;
+  &lt;meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var0" expression="&quot;&quot;/&gt;
   &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;i/app-icon72x72@2x.png&quot;&gt;
 
   &lt;!-- Tile icon for Win8 (144x144 + tile color) --&gt;
@@ -1393,7 +1393,7 @@
 
 &lt;/head&gt;
 &lt;body&gt;
-" defaultValue="" alwaysStopAt="true" />
+&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1404,7 +1404,7 @@
   &lt;h3 class=&quot;am-thumbnail-caption&quot;&gt;$var1$&lt;/h3&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="图片标题" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;图片标题&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1438,7 +1438,7 @@
   &lt;/div&gt;
 &lt;/header&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Topbar 导航条" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="导航切换" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="下拉列表 active" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="下拉列表01" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Topbar 导航条&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;导航切换&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;下拉列表 active&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;下拉列表01&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1472,7 +1472,7 @@
   &lt;/div&gt;
 &lt;/header&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Topbar 导航条" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="导航切换" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="下拉列表 active" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="下拉列表01" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Topbar 导航条&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;导航切换&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;下拉列表 active&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;下拉列表01&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1506,7 +1506,7 @@
   &lt;/div&gt;
 &lt;/header&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Topbar 导航条" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="导航切换" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="下拉列表 active" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="下拉列表01" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Topbar 导航条&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;导航切换&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;下拉列表 active&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;下拉列表01&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1540,7 +1540,7 @@
   &lt;/div&gt;
 &lt;/header&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Topbar 导航条" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="导航切换" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="下拉列表 active" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="下拉列表01" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Topbar 导航条&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;导航切换&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;下拉列表 active&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;下拉列表01&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1550,7 +1550,7 @@
   &lt;p&gt;$var1$&lt;/p&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1560,7 +1560,7 @@
   &lt;p&gt;$var1$&lt;/p&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1570,7 +1570,7 @@
   &lt;p&gt;$var1$&lt;/p&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1580,7 +1580,7 @@
   &lt;p&gt;$var1$&lt;/p&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1590,7 +1590,7 @@
   &lt;p&gt;$var1$&lt;/p&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1605,7 +1605,7 @@
 &lt;/nav&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="collapse-nav" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="Menu" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="collapse-nav" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="active 标题" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;collapse-nav&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;Menu&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;collapse-nav&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;active 标题&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1640,7 +1640,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="do-not-say-1" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="标题 #1" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="do-not-say-1" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容 #1" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="accordion" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="do-not-say-2" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="标题 #2" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="do-not-say-2" defaultValue="" alwaysStopAt="true" />    <variable name="var9" expression="内容 #2" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;do-not-say-1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;标题 #1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;do-not-say-1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容 #1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;accordion&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;do-not-say-2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="&quot;标题 #2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;do-not-say-2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var9" expression="&quot;内容 #2&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1648,7 +1648,7 @@
   </template>  <template name="am-datapicker" value="&lt;p&gt;&lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot; data-am-datepicker /&gt;&lt;/p&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="日历组件" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;日历组件&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1661,7 +1661,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="日历组件" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;日历组件&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1678,7 +1678,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="下拉列表" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="li" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="active li" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="disabled li" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;下拉列表&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;li&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;active li&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;disabled li&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1695,7 +1695,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="上拉列表" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="li" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="active li" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="disabled li" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;上拉列表&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;li&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;active li&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;disabled li&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1708,7 +1708,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Dropdown" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Dropdown&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1726,7 +1726,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="doc-dropdown-justify" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="doc-dropdown-justify" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="宽度适应下拉" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="I am what I am" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;doc-dropdown-justify&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;doc-dropdown-justify&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;宽度适应下拉&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;I am what I am&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1745,7 +1745,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Modal" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="Modal 标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="Modal 内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Modal&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;Modal 标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;Modal 内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1765,7 +1765,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="my-id" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="my-alert" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="Modal Alert 标题" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="Hello world！" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;my-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;my-alert&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;Modal Alert 标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;Hello world！&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1799,7 +1799,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="my-id" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="my-confirm" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="confirm title" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="my-prompt" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;my-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;my-confirm&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;confirm title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;my-prompt&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1808,7 +1808,7 @@
 &lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;prompt&lt;/button&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="my-id" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;my-id&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1825,7 +1825,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="my-id" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="my-modal-loading" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="正在载入..." defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;my-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;my-modal-loading&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;正在载入...&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1847,7 +1847,7 @@
 &lt;/div&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="my-id" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="my-actions" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="wechat" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="wechat 标题" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="mobile" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="mobile 标题" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="twitter" defaultValue="" alwaysStopAt="true" />    <variable name="var8" expression="twitter 标题" defaultValue="" alwaysStopAt="true" />    <variable name="var9" expression="取消" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;my-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;my-actions&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;wechat&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;wechat 标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;mobile&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;mobile 标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="&quot;twitter&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var8" expression="&quot;twitter 标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var9" expression="&quot;取消&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1856,7 +1856,7 @@
 &lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;popup&lt;/button&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="my-id" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;my-id&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1872,7 +1872,7 @@
   &lt;/div&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="your-id" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="点击显示侧边栏" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="your-id" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;your-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;点击显示侧边栏&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;your-id&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1888,7 +1888,7 @@
   &lt;/div&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="your-id" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="点击显示侧边栏" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="your-id" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;your-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;点击显示侧边栏&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;your-id&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1897,7 +1897,7 @@
   $var2$
 &lt;/button&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="内容" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="Popover" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;Popover&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1906,7 +1906,7 @@
   $var2$
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1915,7 +1915,7 @@
   $var2$
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1924,7 +1924,7 @@
   $var2$
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1933,7 +1933,7 @@
   $var2$
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1942,7 +1942,7 @@
   $var2$
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1951,7 +1951,7 @@
   $var2$
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1960,7 +1960,7 @@
   $var2$
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1969,7 +1969,7 @@
   $var2$
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1978,7 +1978,7 @@
   $var2$
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression=", delay: 3000, repeat: false" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -1992,7 +1992,7 @@
   $var4$
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="侦测滚动" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;侦测滚动&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -2003,7 +2003,7 @@
 &lt;/select&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="selected" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;a&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;a&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;selected&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -2014,7 +2014,7 @@
 &lt;/select&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="selected" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;a&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;a&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;selected&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -2031,7 +2031,7 @@
 &lt;/select&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="selected" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="title" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="a" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="selected" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;a&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;a&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;selected&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;a&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;a&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;selected&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -2042,14 +2042,14 @@
   &lt;/ul&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="img src" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;img src&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>  <template name="am-smoothscroll" value="&lt;button data-am-smooth-scroll type=&quot;button&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="滚动到顶部" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;滚动到顶部&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -2058,7 +2058,7 @@
   &lt;button class=&quot;am-btn am-btn-primary am-btn-block&quot;&gt;$var1$&lt;/button&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="Stick to top" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;Stick to top&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -2079,7 +2079,7 @@
   &lt;/div&gt;
 &lt;/div&gt;" toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="active 标题" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="标题" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="active 内容" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="内容" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;active 标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;active 内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -2089,7 +2089,7 @@
 &lt;/label&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="checkbox" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="title" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;checkbox&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -2099,7 +2099,7 @@
 &lt;/label&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="checkbox" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="checked" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;checkbox&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;checked&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -2109,7 +2109,7 @@
 &lt;/label&gt;
 " toReformat="true" toShortenFQNames="true">
 
-    <variable name="var1" expression="checkbox" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="disabled" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="&quot;checkbox&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;disabled&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
