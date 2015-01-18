@@ -19,5 +19,5 @@
 
     ]]>
   </content>
-  <tabTrigger>am-dropdown:actions</tabTrigger>
+  <tabTrigger>am-modal:actions</tabTrigger>
 </snippet>

@@ -1,23 +1,16 @@
 <snippet>
   <content>
     <![CDATA[
-<!-- 触发 button -->
-<button class="am-btn am-btn-primary" data-am-modal>${1:Modal}</button>
-<div class="am-modal am-modal-no-btn" tabindex="-1">
-  <div class="am-modal-dialog">
-    <div class="am-modal-hd">${2:Modal 标题}
-      <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
-    </div>
-    <div class="am-modal-bd">
-      ${3:Modal 内容}
-    </div>
-  </div>
+<div class="am-dropdown" data-am-dropdown>
+<button class="am-btn am-btn-primary am-dropdown-toggle" data-am-dropdown-toggle>${1:下拉列表} <span class="am-icon-caret-down"></span></button>
+  <ul class="am-dropdown-content">
+    <li class="am-dropdown-header">${2:标题}</li>
+    <li><a href="#">${3:li}</a></li>
+    <li class="am-active"><a href="#">${4:active li}</a></li>
+    <li class="am-disabled"><a href="#">${5:disabled li}</a></li>
+    <li class="am-divider"></li>
+  </ul>
 </div>
-
-    ]]>
-  </content>
-  <tabTrigger>am-dropdown</tabTrigger>
-</snippet>v>
 
     ]]>
   </content>

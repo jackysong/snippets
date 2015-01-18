@@ -31,5 +31,5 @@
 
     ]]>
   </content>
-  <tabTrigger>am-dropdown:confirm</tabTrigger>
+  <tabTrigger>am-modal:confirm</tabTrigger>
 </snippet>

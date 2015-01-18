@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-  name: 'dropdown',
+  name: 'modal',
   options: ['alert', 'confirm', 'prompt', 'loading', 'actions', 'popup']
 };

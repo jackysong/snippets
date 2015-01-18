@@ -6,5 +6,5 @@
 
     ]]>
   </content>
-  <tabTrigger>am-dropdown:popup</tabTrigger>
+  <tabTrigger>am-modal:popup</tabTrigger>
 </snippet>

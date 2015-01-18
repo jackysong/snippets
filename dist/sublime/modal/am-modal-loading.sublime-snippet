@@ -14,5 +14,5 @@
 
     ]]>
   </content>
-  <tabTrigger>am-dropdown:loading</tabTrigger>
+  <tabTrigger>am-modal:loading</tabTrigger>
 </snippet>

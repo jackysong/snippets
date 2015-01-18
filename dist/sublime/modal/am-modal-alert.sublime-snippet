@@ -17,5 +17,5 @@
 
     ]]>
   </content>
-  <tabTrigger>am-dropdown:alert</tabTrigger>
+  <tabTrigger>am-modal:alert</tabTrigger>
 </snippet>

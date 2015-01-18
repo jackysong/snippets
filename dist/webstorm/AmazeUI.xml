@@ -1731,7 +1731,7 @@
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
-  </template>  <template name="am-dropdown" value="&lt;!-- 触发 button --&gt;
+  </template>  <template name="am-modal" value="&lt;!-- 触发 button --&gt;
 &lt;button class=&quot;am-btn am-btn-primary&quot; data-am-modal&gt;$var1$&lt;/button&gt;
 &lt;div class=&quot;am-modal am-modal-no-btn&quot; tabindex=&quot;-1&quot;&gt;
   &lt;div class=&quot;am-modal-dialog&quot;&gt;
@@ -1750,7 +1750,7 @@
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
-  </template>  <template name="am-dropdown:alert" value="&lt;!-- 触发 button --&gt;
+  </template>  <template name="am-modal:alert" value="&lt;!-- 触发 button --&gt;
 &lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;alert&lt;/button&gt;
 &lt;div class=&quot;am-modal am-modal-alert&quot; tabindex=&quot;-1&quot; id=&quot;$var2$&quot;&gt;
   &lt;div class=&quot;am-modal-dialog&quot;&gt;
@@ -1770,7 +1770,7 @@
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
-  </template>  <template name="am-dropdown:confirm" value="&lt;!-- 触发 button --&gt;
+  </template>  <template name="am-modal:confirm" value="&lt;!-- 触发 button --&gt;
 &lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;confirm&lt;/button&gt;
 &lt;div class=&quot;am-modal am-modal-confirm&quot; tabindex=&quot;-1&quot; id=&quot;$var2$&quot;&gt;
   &lt;div class=&quot;am-modal-dialog&quot;&gt;
@@ -1804,7 +1804,7 @@
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
-  </template>  <template name="am-dropdown:prompt" value="&lt;!-- 触发 button --&gt;
+  </template>  <template name="am-modal:prompt" value="&lt;!-- 触发 button --&gt;
 &lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;prompt&lt;/button&gt;
 " toReformat="true" toShortenFQNames="true">
 
@@ -1813,7 +1813,7 @@
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
-  </template>  <template name="am-dropdown:loading" value="&lt;!-- 触发 button --&gt;
+  </template>  <template name="am-modal:loading" value="&lt;!-- 触发 button --&gt;
 &lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;loading&lt;/button&gt;
 &lt;div class=&quot;am-modal am-modal-loading am-modal-no-btn&quot; tabindex=&quot;-1&quot; id=&quot;$var2$&quot;&gt;
   &lt;div class=&quot;am-modal-dialog&quot;&gt;
@@ -1830,7 +1830,7 @@
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
-  </template>  <template name="am-dropdown:actions" value="&lt;!-- 触发 button --&gt;
+  </template>  <template name="am-modal:actions" value="&lt;!-- 触发 button --&gt;
 &lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;actions&lt;/button&gt;
 &lt;div class=&quot;am-modal-actions&quot; id=&quot;$var2$&quot;&gt;
   &lt;div class=&quot;am-modal-actions-group&quot;&gt;
@@ -1852,7 +1852,7 @@
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
-  </template>  <template name="am-dropdown:popup" value="&lt;!-- 触发 button --&gt;
+  </template>  <template name="am-modal:popup" value="&lt;!-- 触发 button --&gt;
 &lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;popup&lt;/button&gt;
 " toReformat="true" toShortenFQNames="true">
 
