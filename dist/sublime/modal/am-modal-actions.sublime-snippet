@@ -16,7 +16,6 @@
     <button class="am-btn am-btn-secondary am-btn-block" data-am-modal-close>${9:取消}</button>
   </div>
 </div>
-
     ]]>
   </content>
   <tabTrigger>am-modal:actions</tabTrigger>

@@ -6,7 +6,6 @@
   <li><a href="#">${2:分类}</a></li>
   <li class="am-active">${3:内容}</li>
 </ol>
-
     ]]>
   </content>
   <tabTrigger>am-breadcrumb</tabTrigger>

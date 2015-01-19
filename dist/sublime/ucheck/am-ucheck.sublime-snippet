@@ -4,7 +4,6 @@
 <label class="am-checkbox">
   <input type="${1:checkbox}" value="" data-am-ucheck> ${2:title}
 </label>
-
     ]]>
   </content>
   <tabTrigger>am-ucheck</tabTrigger>

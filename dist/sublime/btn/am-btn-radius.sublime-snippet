@@ -1,0 +1,8 @@
+<snippet>
+  <content>
+    <![CDATA[
+<button type="button" class="am-btn am-btn-default am-radius">${1:radius 按钮}</button>
+    ]]>
+  </content>
+  <tabTrigger>am-btn:radius</tabTrigger>
+</snippet>

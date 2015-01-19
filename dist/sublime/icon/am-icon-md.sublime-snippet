@@ -2,7 +2,6 @@
   <content>
     <![CDATA[
 <span class="am-icon-${1:home} am-icon-md">${2:字体图标}</span>
-
     ]]>
   </content>
   <tabTrigger>am-icon:md</tabTrigger>

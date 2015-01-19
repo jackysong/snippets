@@ -2,16 +2,17 @@
   <content>
     <![CDATA[
 <!-- 按钮触发器 -->
-<button class="am-btn am-btn-primary" data-am-offcanvas="{target: '#${1:your-id}'}">${2:点击显示侧边栏}</button>
+<button class="am-btn am-btn-primary" data-am-offcanvas="{target: '${1:#your-id}'}">${2:点击显示侧边栏}</button>
 <!-- 侧边栏内容 -->
-<div id="${1:your-id}" class="am-offcanvas">
+<div id="${3:your-id}" class="am-offcanvas">
   <div class="am-offcanvas-bar">
     <div class="am-offcanvas-content">
     <!-- 你的内容 -->
+    ${4:内容}
     </div>
   </div>
 </div>
     ]]>
   </content>
-  <tabTrigger>am-offCanvas</tabTrigger>
+  <tabTrigger>am-offcanvas</tabTrigger>
 </snippet>

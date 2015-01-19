@@ -18,7 +18,6 @@
     <div class="am-comment-bd">${3:评论内容}</div> <!-- 评论内容 -->
   </div>
 </article>
-
     ]]>
   </content>
   <tabTrigger>am-comment</tabTrigger>

@@ -1,0 +1,8 @@
+<snippet>
+  <content>
+    <![CDATA[
+<button type="button" class="am-btn am-btn-default am-disabled">${1:disabled 按钮}</button>
+    ]]>
+  </content>
+  <tabTrigger>am-btn:disabled</tabTrigger>
+</snippet>

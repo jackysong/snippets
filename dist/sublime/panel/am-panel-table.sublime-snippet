@@ -11,7 +11,6 @@
   </table>
   <footer class="am-panel-footer">${2:面板页脚}</footer>
 </section>
-
     ]]>
   </content>
   <tabTrigger>am-panel:table</tabTrigger>

@@ -2,7 +2,7 @@
   <content>
     <![CDATA[
 <ul class="am-nav am-nav-justify">
-  <li class="am-active"><a href="#">${1:active}</a></li>
+  <li class="am-active"><a href="#">${1:active列表}</a></li>
   <li><a href="#">${2:列表}</a></li>
 </ul>
     ]]>

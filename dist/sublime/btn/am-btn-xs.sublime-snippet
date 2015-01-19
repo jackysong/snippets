@@ -1,7 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-<button type="button" class="am-btn am-btn-xs">${1:按钮}</button>
+<button type="button" class="am-btn am-btn-default am-btn-xs">${1:按钮}</button>
     ]]>
   </content>
   <tabTrigger>am-btn:xs</tabTrigger>

@@ -1,11 +1,10 @@
 <snippet>
   <content>
     <![CDATA[
-<!-- Latest compiled and minified CSS & JS -->
+<!-- Latest compiled and minified CSS and JS -->
 <link rel="stylesheet" href="//cdn.amazeui.org/amazeui/2.1.0/css/amazeui.min.css">
 <script src="//libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
 <script src="//cdn.amazeui.org/amazeui/2.1.0/js/amazeui.min.js"></script>
-
     ]]>
   </content>
   <tabTrigger>am-cdn</tabTrigger>

@@ -4,8 +4,6 @@
 <div class="am-progress">
   <div class="am-progress-bar am-progress-bar-danger" style="${1:width: 15%}"></div>
 </div>
-
-
     ]]>
   </content>
   <tabTrigger>am-progress:danger</tabTrigger>

@@ -1,7 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-<ul class="am-avg-sm-${1:1} am-avg-md-${1:1} am-avg-lg-${1:1}">
+<ul class="am-avg-sm-${1:1} am-avg-md-${2:2} am-avg-lg-${3:3}">
   <li>${4:内容}</li>
 </ul>
     ]]>

@@ -7,7 +7,6 @@
     ${2:内容}
   </div>
 </div>
-
     ]]>
   </content>
   <tabTrigger>am-dropdown:content</tabTrigger>

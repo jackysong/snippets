@@ -2,88 +2,146 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6c0c7e2-c2c0-4f76-9b3e-26967f8550ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/animation/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/article/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/avgGrid/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/badge/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/breadcrumb/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/btn-group/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/cdn/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/close/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/code/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/comment/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/form/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/icon/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/image/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/input-group/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/list/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/nav/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/pagination/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/panel/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/progress/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/table/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/template/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/thumbnail/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/topbar/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/alert/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/collapse/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/datepicker/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/dropdown/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/modal/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/offcanvas/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/popover/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/scrollspy/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/scrollspy-nav/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/select/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/slider/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/smoothscroll/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/sticky/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/tabs/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/ucheck/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/animation/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/article/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/avgGrid/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/badge/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/breadcrumb/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/btn-group/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/cdn/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/close/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/code/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/comment/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/form/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/icon/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/image/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/input-group/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/list/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/nav/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/pagination/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/panel/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/progress/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/table/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/template/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/thumbnail/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/topbar/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/alert/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/collapse/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/datepicker/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/dropdown/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/modal/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/offcanvas/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/popover/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/scrollspy/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/scrollspy-nav/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/select/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/slider/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/smoothscroll/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/sticky/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/tabs/tpl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/ucheck/tpl.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/selected/tpl.hbs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/sublime/offcanvas/am-offcanvas-flip.sublime-snippet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/sublime/offcanvas/am-offcanvas.sublime-snippet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/sublime/select/am-select-group.sublime-snippet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/sublime/select/am-select-multiple.sublime-snippet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/sublime/select/am-select.sublime-snippet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/sublime/template/am-template.sublime-snippet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/select/tpl.hbs" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/template/config.js" afterPath="$PROJECT_DIR$/src/css/html/config.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/template/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/html/tpl.hbs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/select/config.js" afterPath="$PROJECT_DIR$/src/js/selected/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/webstorm/AmazeUI.xml" afterPath="$PROJECT_DIR$/dist/webstorm/AmazeUI.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/avggrid/am-avggrid.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/avggrid/am-avggrid.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/breadcrumb/am-breadcrumb.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/breadcrumb/am-breadcrumb.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-danger.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-danger.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-default.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-default.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-justify.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-justify.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-lg.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-lg.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-sm.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-sm.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-stacked.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-stacked.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-toolbar.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-toolbar.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-xs.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-xs.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-lg.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-lg.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-primary.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-primary.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-secondary.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-secondary.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-sm.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-sm.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-success.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-success.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-warning.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-warning.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-xl.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-xl.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-xs.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-xs.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/cdn/am-cdn-css.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/cdn/am-cdn-css.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/cdn/am-cdn-js.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/cdn/am-cdn-js.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/cdn/am-cdn.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/cdn/am-cdn.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/collapse/am-collapse-accordion.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/collapse/am-collapse-accordion.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/collapse/am-collapse.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/collapse/am-collapse.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/comment/am-comment.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/comment/am-comment.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/datapicker/am-datapicker-group.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/datapicker/am-datapicker-group.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/datapicker/am-datapicker.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/datapicker/am-datapicker.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-content.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-content.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-justify.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-justify.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-up.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-up.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/form/am-form-inline.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/form/am-form-inline.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/form/am-form.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/form/am-form.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-1.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-1.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-10.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-10.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-11.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-11.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-12.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-12.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-2.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-2.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-3.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-3.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-4.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-4.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-5.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-5.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-6.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-6.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-7.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-7.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-8.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-8.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-9.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-9.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-collapse.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-collapse.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-container.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-container.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-fixed.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-fixed.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/icon/am-icon-btn.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/icon/am-icon-btn.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/icon/am-icon-lg.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/icon/am-icon-lg.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/icon/am-icon-md.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/icon/am-icon-md.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/icon/am-icon-sm.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/icon/am-icon-sm.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/icon/am-icon-spin.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/icon/am-icon-spin.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/icon/am-icon.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/icon/am-icon.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/img/am-img-circle.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/img/am-img-circle.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/img/am-img-radius.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/img/am-img-radius.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/img/am-img-round.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/img/am-img-round.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/img/am-img-thumbnail.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/img/am-img-thumbnail.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/img/am-img.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/img/am-img.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal-actions.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal-actions.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal-alert.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal-alert.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal-confirm.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal-confirm.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal-loading.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal-loading.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal-popup.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal-popup.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal-prompt.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal-prompt.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/nav/am-nav-justify.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/nav/am-nav-justify.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/nav/am-nav-pills.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/nav/am-nav-pills.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/nav/am-nav-tabs.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/nav/am-nav-tabs.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/nav/am-nav.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/nav/am-nav.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination-centered.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination-centered.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination-prevnext.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination-prevnext.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination-right.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination-right.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-danger.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-danger.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-footer.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-footer.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-group.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-group.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-list.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-list.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-primary.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-primary.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-secondary.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-secondary.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-success.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-success.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-table.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-table.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-warning.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-warning.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-danger.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-danger.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-secondary.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-secondary.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-sm.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-sm.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-striped.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-striped.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-success.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-success.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-warning.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-warning.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-xs.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-xs.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/slider/am-slider.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/slider/am-slider.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/table/am-table-bordered.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/table/am-table-bordered.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/table/am-table-radius.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/table/am-table-radius.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/table/am-table-striped.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/table/am-table-striped.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/table/am-table.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/table/am-table.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar-fixed-bottom.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar-fixed-bottom.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar-fixed-top.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar-fixed-top.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar-inverse.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar-inverse.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/ucheck/am-ucheck-checked.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/ucheck/am-ucheck-checked.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/ucheck/am-ucheck-disabled.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/ucheck/am-ucheck-disabled.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/ucheck/am-ucheck.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/ucheck/am-ucheck.sublime-snippet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/badge/config.js" afterPath="$PROJECT_DIR$/src/css/badge/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/breadcrumb/config.js" afterPath="$PROJECT_DIR$/src/css/breadcrumb/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/btn/config.js" afterPath="$PROJECT_DIR$/src/css/btn/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/grid/config.js" afterPath="$PROJECT_DIR$/src/css/grid/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/offcanvas/config.js" afterPath="$PROJECT_DIR$/src/js/offcanvas/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/avgGrid/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/avgGrid/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/badge/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/badge/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/breadcrumb/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/breadcrumb/tpl.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/btn/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/btn/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/cdn/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/cdn/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/form/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/form/tpl.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/grid/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/grid/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/image/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/image/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/nav/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/nav/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/panel/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/panel/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/progress/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/progress/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/table/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/table/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/topbar/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/topbar/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/dropdown/tpl.hbs" afterPath="$PROJECT_DIR$/src/js/dropdown/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/offcanvas/tpl.hbs" afterPath="$PROJECT_DIR$/src/js/offcanvas/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/slider/tpl.hbs" afterPath="$PROJECT_DIR$/src/js/slider/tpl.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="snippets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,28 +163,7 @@
     <favorites_list name="snippets" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.543771" vertical-offset="1377" max-vertical-offset="3604">
-              <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tpl.hbs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/animation/tpl.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -139,33 +176,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/css/panel/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/css/progress/config.js" />
-        <option value="$PROJECT_DIR$/src/css/progress/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/css/thumbnail/config.js" />
-        <option value="$PROJECT_DIR$/src/css/thumbnail/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/css/article/config.js" />
-        <option value="$PROJECT_DIR$/src/css/article/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/css/input-group/config.js" />
-        <option value="$PROJECT_DIR$/src/css/input-group/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/css/badge/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/css/badge/config.js" />
-        <option value="$PROJECT_DIR$/src/css/list/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/css/animation/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/css/avgGrid/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/css/btn/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/css/btn/config.js" />
-        <option value="$PROJECT_DIR$/src/css/animation/config.js" />
-        <option value="$PROJECT_DIR$/src/js/alert/config.js" />
-        <option value="$PROJECT_DIR$/src/js/alert/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/js/dropdown/config.js" />
-        <option value="$PROJECT_DIR$/src/js/dropdown/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/js/modal/config.js" />
-        <option value="$PROJECT_DIR$/src/js/modal/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/js/popover/config.js" />
         <option value="$PROJECT_DIR$/src/js/popover/tpl.hbs" />
         <option value="$PROJECT_DIR$/src/js/progress/config.js" />
-        <option value="$PROJECT_DIR$/src/js/slider/tpl.hbs" />
         <option value="$PROJECT_DIR$/src/js/slider/config.js" />
         <option value="$PROJECT_DIR$/src/js/scrollSpy/tpl.hbs" />
         <option value="$PROJECT_DIR$/src/js/scrollSpy/config.js" />
@@ -179,9 +191,7 @@
         <option value="$PROJECT_DIR$/src/js/tabs/tpl.hbs" />
         <option value="$PROJECT_DIR$/src/js/datepicker/config.js" />
         <option value="$PROJECT_DIR$/src/js/datepicker/tpl.hbs" />
-        <option value="$PROJECT_DIR$/src/js/select/config.js" />
         <option value="$PROJECT_DIR$/src/js/ucheck/config.js" />
-        <option value="$PROJECT_DIR$/src/js/select/tpl.hbs" />
         <option value="$PROJECT_DIR$/src/js/ucheck/tpl.hbs" />
         <option value="$PROJECT_DIR$/src/js/collapse/tpl.hbs" />
         <option value="$PROJECT_DIR$/src/js/collapse/config.js" />
@@ -189,14 +199,42 @@
         <option value="$PROJECT_DIR$/src/js/offCanvas/tpl.hbs" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/css/avgGrid/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/css/form/tpl.hbs" />
+        <option value="$PROJECT_DIR$/dist/webstorm/AmazeUI.xml" />
+        <option value="$PROJECT_DIR$/src/css/grid/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/css/image/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/css/nav/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/css/panel/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/css/progress/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/css/table/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/css/template/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/css/topbar/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/js/dropdown/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/js/offcanvas/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/js/select/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/js/slider/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/css/template/config.js" />
+        <option value="$PROJECT_DIR$/src/css/btn/config.js" />
+        <option value="$PROJECT_DIR$/src/css/badge/config.js" />
+        <option value="$PROJECT_DIR$/src/css/btn/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/css/badge/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/css/breadcrumb/config.js" />
+        <option value="$PROJECT_DIR$/src/css/breadcrumb/tpl.hbs" />
+        <option value="$PROJECT_DIR$/src/js/offcanvas/config.js" />
+        <option value="$PROJECT_DIR$/src/js/select/config.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/css/cdn/tpl.hbs" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/src/css/html/tpl.hbs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="11" />
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1178" />
+    <option name="height" value="1125" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -246,6 +284,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,75 +313,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snippets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snippets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snippets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snippets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snippets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snippets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animation" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,6 +337,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -371,12 +355,14 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
       <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -384,16 +370,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
-      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -417,14 +393,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1178" extended-state="6" />
+    <frame x="11" y="22" width="1920" height="1125" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.427256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24298161" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28541338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.164297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913843" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -432,11 +408,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -461,363 +437,363 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/css/table/tpl.hbs">
+    <entry file="file://$PROJECT_DIR$/dist/sublime/code/am-code.sublime-snippet">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39045936" vertical-offset="0" max-vertical-offset="566">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.20291777" vertical-offset="0" max-vertical-offset="754">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/list/config.js">
+    <entry file="file://$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-content.sublime-snippet">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14265734" vertical-offset="0" max-vertical-offset="715">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.20291777" vertical-offset="0" max-vertical-offset="754">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/list/tpl.hbs">
+    <entry file="file://$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-up.sublime-snippet">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15088758" vertical-offset="0" max-vertical-offset="676">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.2254642" vertical-offset="0" max-vertical-offset="754">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/btn/am-btn-warning.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1127321" vertical-offset="0" max-vertical-offset="754">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/code/am-code-scrollable.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/img/am-img.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/img/am-img-round.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/badge/am-badge-radius.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/badge/am-badge-round.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/badge/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16951567" vertical-offset="0" max-vertical-offset="702">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/img/am-img-circle.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/badge/tpl.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="668">
-          <caret line="0" column="58" selection-start-line="0" selection-start-column="58" selection-end-line="0" selection-end-column="58" />
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="323">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/article/tpl.hbs">
+    <entry file="file://$PROJECT_DIR$/dist/sublime/btn/am-btn.sublime-snippet">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2514793" vertical-offset="0" max-vertical-offset="676">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/article/config.js">
+    <entry file="file://$PROJECT_DIR$/dist/sublime/badge/am-badge.sublime-snippet">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07132867" vertical-offset="0" max-vertical-offset="715">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/avgGrid/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/avgGrid/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/breadcrumb/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1233672" vertical-offset="0" max-vertical-offset="689">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/breadcrumb/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07132867" vertical-offset="0" max-vertical-offset="715">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/btn/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11888112" vertical-offset="0" max-vertical-offset="715">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/btn/tpl.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
-          <caret line="0" column="58" selection-start-line="0" selection-start-column="58" selection-end-line="0" selection-end-column="58" />
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="459">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/animation/config.js">
+    <entry file="file://$PROJECT_DIR$/dist/sublime/breadcrumb/am-breadcrumb-icon.sublime-snippet">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/slider/config.js">
+    <entry file="file://$PROJECT_DIR$/dist/sublime/breadcrumb/am-breadcrumb-slash.sublime-snippet">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09058615" vertical-offset="0" max-vertical-offset="563">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/scrollspy/tpl.hbs">
+    <entry file="file://$PROJECT_DIR$/src/css/breadcrumb/tpl.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.031657357" vertical-offset="0" max-vertical-offset="537">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.024566473" vertical-offset="0" max-vertical-offset="692">
+          <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/smoothscroll/config.js">
+    <entry file="file://$PROJECT_DIR$/src/css/breadcrumb/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09058615" vertical-offset="0" max-vertical-offset="563">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/scrollspy-nav/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18994413" vertical-offset="0" max-vertical-offset="537">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/sticky/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09058615" vertical-offset="0" max-vertical-offset="563">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/ucheck/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.120781526" vertical-offset="0" max-vertical-offset="563">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/collapse/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.120781526" vertical-offset="0" max-vertical-offset="563">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/collapse/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81005585" vertical-offset="211" max-vertical-offset="748">
-          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/datepicker/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.120781526" vertical-offset="0" max-vertical-offset="563">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/datepicker/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25325885" vertical-offset="0" max-vertical-offset="537">
-          <caret line="8" column="88" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/dropdown/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="850">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/dropdown/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/modal/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88640594" vertical-offset="0" max-vertical-offset="1530">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/modal/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1811723" vertical-offset="0" max-vertical-offset="563">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/offcanvas/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="255">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/popover/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15097691" vertical-offset="0" max-vertical-offset="563">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/popover/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06331471" vertical-offset="0" max-vertical-offset="537">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/offcanvas/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.120781526" vertical-offset="0" max-vertical-offset="563">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/scrollspy/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/scrollspy-nav/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/select/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/select/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="493">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/slider/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/smoothscroll/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="537">
-          <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/sticky/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="537">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/tabs/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="340">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/ucheck/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="340">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/sublime/animation/am-animation.sublime-snippet">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/sublime/alert/am-alert-danger.sublime-snippet">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09058615" vertical-offset="0" max-vertical-offset="563">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/sublime/alert/am-alert.sublime-snippet">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09058615" vertical-offset="0" max-vertical-offset="563">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/alert/tpl.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09497207" vertical-offset="0" max-vertical-offset="537">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5698324" vertical-offset="0" max-vertical-offset="612">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/sublime/breadcrumb/am-breadcrumb.sublime-snippet">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/alert/config.js">
+    <entry file="file://$PROJECT_DIR$/src/css/btn-group/tpl.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1811723" vertical-offset="0" max-vertical-offset="563">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/animation/tpl.hbs">
+    <entry file="file://$PROJECT_DIR$/src/css/btn-group/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/template/tpl.hbs">
+    <entry file="file://$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group.sublime-snippet">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3415493" vertical-offset="469" max-vertical-offset="1037">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/comment/am-comment.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/input-group/am-input-group-sm.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/input-group/am-input-group-success.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="685">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/topbar/am-topbar-fixed-bottom.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/pagination/am-pagination.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/offcanvas/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0720339" vertical-offset="0" max-vertical-offset="708">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/selected/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.093023255" vertical-offset="0" max-vertical-offset="731">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/html/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11627907" vertical-offset="0" max-vertical-offset="731">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/selected/tpl.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42032966" vertical-offset="0" max-vertical-offset="728">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/sticky/am-sticky.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4509284" vertical-offset="0" max-vertical-offset="754">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/smoothscroll/am-smoothscroll.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13527851" vertical-offset="0" max-vertical-offset="754">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/scrollspy/am-scrollspy.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/scrollspy/am-scrollspy-fade.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/progress/am-progress.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13527851" vertical-offset="0" max-vertical-offset="754">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/btn/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15782493" vertical-offset="0" max-vertical-offset="754">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/animation/am-animation-slide-bottom.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15782493" vertical-offset="0" max-vertical-offset="754">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/slider/am-slider.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/table/am-table-bordered.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/progress/am-progress-sm.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/img/am-img-radius.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/sublime/animation/am-animation-fade.sublime-snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.543771" vertical-offset="1377" max-vertical-offset="3604">
-          <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.5185676" vertical-offset="1513" max-vertical-offset="4488">
+          <caret line="112" column="48" selection-start-line="112" selection-start-column="48" selection-end-line="112" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/cdn/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/cdn/tpl.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16346154" vertical-offset="0" max-vertical-offset="728">
+          <caret line="7" column="82" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/webstorm/AmazeUI.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22941971" vertical-offset="12002" max-vertical-offset="35819">
+          <caret line="716" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="2101" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/html/tpl.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39697802" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6313618" vertical-offset="0" max-vertical-offset="7191">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding />
         </state>
       </provider>

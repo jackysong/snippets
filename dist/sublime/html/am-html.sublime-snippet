@@ -1,12 +1,15 @@
+<snippet>
+  <content>
+    <![CDATA[
 <!doctype html>
 <html class="no-js">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="$$">
-  <meta name="keywords" content="$$">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>$Amaze UI Examples$</title>
+  <title>${1:你的标题}</title>
 
   <!-- Set render engine for 360 browser -->
   <meta name="renderer" content="webkit">
@@ -23,7 +26,7 @@
   <!-- Add to homescreen for Safari on iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="$Amaze UI$"/>
+  <meta name="apple-mobile-web-app-title" content="${2:Amaze UI}"/>
   <link rel="apple-touch-icon-precomposed" href="i/app-icon72x72@2x.png">
 
   <!-- Tile icon for Win8 (144x144 + tile color) -->
@@ -35,11 +38,11 @@
 
 </head>
 <body>
-$your code$
-<!-- Amaze UI JavaScript -->
+
+<div>${3:开始写你的码...}</div>
 
 <!--[if lt IE 9]>
-<script src="http://libs.useso.com/js/jquery/1.11.1/jquery.min.js"></script>
+<script src="//libs.useso.com/js/jquery/1.11.1/jquery.min.js"></script>
 <script src="//cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
 <script src="/js/polyfill/rem.min.js"></script>
 <script src="//libs.useso.com/js/respond.js/1.4.2/respond.min.js"></script>
@@ -53,3 +56,7 @@ $your code$
 
 </body>
 </html>
+    ]]>
+  </content>
+  <tabTrigger>am-html</tabTrigger>
+</snippet>

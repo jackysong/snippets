@@ -7,7 +7,6 @@
     <button class="am-btn am-btn-default" type="button"><span class="am-icon-calendar"></span> </button>
   </span>
 </div>
-
     ]]>
   </content>
   <tabTrigger>am-datapicker:group</tabTrigger>

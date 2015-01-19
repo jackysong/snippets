@@ -1,0 +1,11 @@
+<snippet>
+  <content>
+    <![CDATA[
+<select data-am-selected>
+  <option value="${1:a1}">${2:title}</option>
+  <option value="${3:a2}" selected>${4:selected}</option>
+</select>
+    ]]>
+  </content>
+  <tabTrigger>am-selected</tabTrigger>
+</snippet>

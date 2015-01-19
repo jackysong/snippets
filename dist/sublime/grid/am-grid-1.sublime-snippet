@@ -2,11 +2,10 @@
   <content>
     <![CDATA[
 <div class="am-g">
-  <div class="am-u-sm-1">
+  <div class="am-u-sm-1 am-u-md-1 am-u-lg-1">
     ${1:内容}
   </div>
 </div>
-
     ]]>
   </content>
   <tabTrigger>am-grid:1</tabTrigger>

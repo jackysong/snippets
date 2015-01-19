@@ -1,0 +1,17 @@
+<snippet>
+  <content>
+    <![CDATA[
+<select multiple data-am-selected>
+  <optgroup label="group1">
+    <option value="${1:a1}">${2:title #1}</option>
+    <option value="${3:a2}" selected>${4:selected #1}</option>
+  </optgroup>
+  <optgroup label="group2">
+    <option value="${5:a3}">${6:title #2}</option>
+    <option value="${7:a4}" selected>${8:selected #2}</option>
+  </optgroup>
+</select>
+    ]]>
+  </content>
+  <tabTrigger>am-selected:group</tabTrigger>
+</snippet>

@@ -3,7 +3,6 @@
     <![CDATA[
 <!-- Latest compiled and minified css -->
 <link rel="stylesheet" href="//cdn.amazeui.org/amazeui/2.1.0/css/amazeui.min.css">
-
     ]]>
   </content>
   <tabTrigger>am-cdn:css</tabTrigger>

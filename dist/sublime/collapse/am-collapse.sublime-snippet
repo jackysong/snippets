@@ -9,7 +9,6 @@
     <li class="am-active"><a href="">${5:active 标题}</a></li>
   </ul>
 </nav>
-
     ]]>
   </content>
   <tabTrigger>am-collapse</tabTrigger>

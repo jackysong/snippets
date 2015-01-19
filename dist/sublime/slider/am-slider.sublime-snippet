@@ -3,7 +3,7 @@
     <![CDATA[
 <div class="am-slider am-slider-default" data-am-flexslider>
   <ul class="am-slides">
-    <li><img src="${1:img src}" /></li>
+    <li><img src="${1:图片地址}" /></li>
   </ul>
 </div>
     ]]>

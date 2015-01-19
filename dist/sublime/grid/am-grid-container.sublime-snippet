@@ -3,12 +3,11 @@
     <![CDATA[
 <div class="am-container">
   <div class="am-g">
-    <div class="am-u-sm-${1:1} am-u-md-${1:1} am-u-lg-${1:1}">
+    <div class="am-u-sm-${1:1} am-u-md-${2:2} am-u-lg-${3:3}">
       ${4:内容}
     </div>
   </div>
 </div>
-
     ]]>
   </content>
   <tabTrigger>am-grid:container</tabTrigger>

@@ -10,7 +10,6 @@
   </div>
   <footer class="am-panel-footer">${3:面板页脚}</footer>
 </section>
-
     ]]>
   </content>
   <tabTrigger>am-panel:warning</tabTrigger>

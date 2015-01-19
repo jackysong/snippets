@@ -6,7 +6,7 @@
 
   <div class="am-form-group">
     <label for="">${3:姓名}</label>
-    <input type="text" id="" placeholder="${3:姓名}">
+    <input type="text" id="" placeholder="${4:输入你的姓名}">
   </div>
 
   <button type="submit" class="am-btn am-btn-primary">${5:提交}</button>
