@@ -2,146 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6c0c7e2-c2c0-4f76-9b3e-26967f8550ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/selected/tpl.hbs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/sublime/offcanvas/am-offcanvas-flip.sublime-snippet" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/sublime/offcanvas/am-offcanvas.sublime-snippet" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/sublime/select/am-select-group.sublime-snippet" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/sublime/select/am-select-multiple.sublime-snippet" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/sublime/select/am-select.sublime-snippet" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/sublime/template/am-template.sublime-snippet" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/select/tpl.hbs" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/template/config.js" afterPath="$PROJECT_DIR$/src/css/html/config.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/template/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/html/tpl.hbs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/select/config.js" afterPath="$PROJECT_DIR$/src/js/selected/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/webstorm/AmazeUI.xml" afterPath="$PROJECT_DIR$/dist/webstorm/AmazeUI.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/avggrid/am-avggrid.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/avggrid/am-avggrid.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/breadcrumb/am-breadcrumb.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/breadcrumb/am-breadcrumb.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-danger.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-danger.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-default.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-default.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-justify.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-justify.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-lg.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-lg.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-sm.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-sm.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-stacked.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-stacked.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-toolbar.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-toolbar.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-xs.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group-xs.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn-group/am-btn-group.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-lg.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-lg.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-primary.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-primary.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-secondary.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-secondary.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-sm.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-sm.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-success.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-success.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-warning.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-warning.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-xl.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-xl.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/btn/am-btn-xs.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/btn/am-btn-xs.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/cdn/am-cdn-css.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/cdn/am-cdn-css.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/cdn/am-cdn-js.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/cdn/am-cdn-js.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/cdn/am-cdn.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/cdn/am-cdn.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/collapse/am-collapse-accordion.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/collapse/am-collapse-accordion.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/collapse/am-collapse.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/collapse/am-collapse.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/comment/am-comment.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/comment/am-comment.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/datapicker/am-datapicker-group.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/datapicker/am-datapicker-group.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/datapicker/am-datapicker.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/datapicker/am-datapicker.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-content.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-content.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-justify.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-justify.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-up.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown-up.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/dropdown/am-dropdown.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/form/am-form-inline.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/form/am-form-inline.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/form/am-form.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/form/am-form.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-1.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-1.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-10.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-10.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-11.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-11.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-12.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-12.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-2.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-2.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-3.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-3.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-4.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-4.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-5.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-5.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-6.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-6.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-7.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-7.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-8.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-8.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-9.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-9.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-collapse.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-collapse.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-container.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-container.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid-fixed.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid-fixed.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/grid/am-grid.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/grid/am-grid.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/icon/am-icon-btn.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/icon/am-icon-btn.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/icon/am-icon-lg.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/icon/am-icon-lg.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/icon/am-icon-md.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/icon/am-icon-md.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/icon/am-icon-sm.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/icon/am-icon-sm.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/icon/am-icon-spin.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/icon/am-icon-spin.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/icon/am-icon.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/icon/am-icon.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/img/am-img-circle.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/img/am-img-circle.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/img/am-img-radius.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/img/am-img-radius.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/img/am-img-round.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/img/am-img-round.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/img/am-img-thumbnail.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/img/am-img-thumbnail.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/img/am-img.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/img/am-img.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal-actions.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal-actions.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal-alert.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal-alert.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal-confirm.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal-confirm.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal-loading.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal-loading.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal-popup.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal-popup.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal-prompt.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal-prompt.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/modal/am-modal.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/modal/am-modal.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/nav/am-nav-justify.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/nav/am-nav-justify.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/nav/am-nav-pills.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/nav/am-nav-pills.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/nav/am-nav-tabs.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/nav/am-nav-tabs.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/nav/am-nav.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/nav/am-nav.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination-centered.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination-centered.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination-prevnext.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination-prevnext.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination-right.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination-right.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/pagination/am-pagination.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-danger.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-danger.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-footer.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-footer.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-group.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-group.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-list.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-list.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-primary.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-primary.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-secondary.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-secondary.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-success.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-success.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-table.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-table.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel-warning.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel-warning.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/panel/am-panel.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/panel/am-panel.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-danger.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-danger.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-secondary.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-secondary.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-sm.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-sm.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-striped.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-striped.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-success.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-success.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-warning.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-warning.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress-xs.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress-xs.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/progress/am-progress.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/progress/am-progress.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/slider/am-slider.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/slider/am-slider.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/table/am-table-bordered.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/table/am-table-bordered.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/table/am-table-radius.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/table/am-table-radius.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/table/am-table-striped.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/table/am-table-striped.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/table/am-table.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/table/am-table.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar-fixed-bottom.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar-fixed-bottom.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar-fixed-top.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar-fixed-top.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar-inverse.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar-inverse.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/topbar/am-topbar.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/ucheck/am-ucheck-checked.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/ucheck/am-ucheck-checked.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/ucheck/am-ucheck-disabled.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/ucheck/am-ucheck-disabled.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/sublime/ucheck/am-ucheck.sublime-snippet" afterPath="$PROJECT_DIR$/dist/sublime/ucheck/am-ucheck.sublime-snippet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/badge/config.js" afterPath="$PROJECT_DIR$/src/css/badge/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/breadcrumb/config.js" afterPath="$PROJECT_DIR$/src/css/breadcrumb/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/btn/config.js" afterPath="$PROJECT_DIR$/src/css/btn/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/offcanvas/config.js" afterPath="$PROJECT_DIR$/src/js/offcanvas/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/avgGrid/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/avgGrid/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/badge/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/badge/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/breadcrumb/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/breadcrumb/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/btn/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/btn/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/cdn/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/cdn/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/form/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/form/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/grid/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/grid/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/image/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/image/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/nav/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/nav/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/panel/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/panel/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/progress/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/progress/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/table/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/table/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/topbar/tpl.hbs" afterPath="$PROJECT_DIR$/src/css/topbar/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/dropdown/tpl.hbs" afterPath="$PROJECT_DIR$/src/js/dropdown/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/offcanvas/tpl.hbs" afterPath="$PROJECT_DIR$/src/js/offcanvas/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/slider/tpl.hbs" afterPath="$PROJECT_DIR$/src/js/slider/tpl.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="snippets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -163,7 +24,21 @@
     <favorites_list name="snippets" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7259">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -223,10 +98,10 @@
         <option value="$PROJECT_DIR$/src/css/breadcrumb/tpl.hbs" />
         <option value="$PROJECT_DIR$/src/js/offcanvas/config.js" />
         <option value="$PROJECT_DIR$/src/js/select/config.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/css/cdn/tpl.hbs" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/src/css/html/tpl.hbs" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -788,12 +663,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6313618" vertical-offset="0" max-vertical-offset="7191">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7259">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
       </provider>

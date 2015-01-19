@@ -3,6 +3,10 @@
 
 Amaze UI Snippets for Editor/IDE.
 
+## 使用效果
+
+![snippets](snippets.gif)
+
 ## 安装
 
 - 现目前还没有添加到官方插件中使用如下：  
@@ -30,7 +34,7 @@ Amaze UI Snippets for Editor/IDE.
 ### Grid 网格
 
 | 组件                   | 代码片段                    |
-|---- ------------------ | :-------------------------:|
+|----------------------- | :-------------------------:|
 | grid 基础代码           | am-grid                    |
 | .am-container          | am-grid:container          |
 | .am-g-fixed            | am-grid:fixed              |
