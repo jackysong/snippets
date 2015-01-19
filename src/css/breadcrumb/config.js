@@ -1,5 +1,7 @@
 'use strict';
 
 module.exports = {
-  name: 'breadcrumb'
+  name: 'breadcrumb',
+  classNames: ['slash'],
+  others: ['icon']
 };

@@ -1,0 +1,24 @@
+{{#unless className}}
+<select data-am-selected>
+  <option value="$a1$">$title$</option>
+  <option value="$a2$" selected>$selected$</option>
+</select>
+{{/unless}}
+{{#ifCond className '==' 'multiple'}}
+<select multiple data-am-selected>
+  <option value="$a1$">$title$</option>
+  <option value="$a2$" selected>$selected$</option>
+</select>
+{{/ifCond}}
+{{#ifCond className '==' 'group'}}
+<select multiple data-am-selected>
+  <optgroup label="group1">
+    <option value="$a1$">$title #1$</option>
+    <option value="$a2$" selected>$selected #1$</option>
+  </optgroup>
+  <optgroup label="group2">
+    <option value="$a3$">$title #2$</option>
+    <option value="$a4$" selected>$selected #2$</option>
+  </optgroup>
+</select>
+{{/ifCond}}

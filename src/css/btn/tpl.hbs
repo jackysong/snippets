@@ -1,1 +1,22 @@
-<button type="button" class="am-btn{{#if className}} am-btn-{{className}}{{/if}}">$按钮$</button>
+{{#unless className}}
+<button type="button" class="am-btn">$按钮$</button>
+{{/unless}}
+{{#if className}}
+{{#ifCond className '==' 'round'}}
+<button type="button" class="am-btn am-btn-default am-{{className}}">$round 按钮$</button>
+{{else}}
+    {{#ifCond className '==' 'active'}}
+<button type="button" class="am-btn am-btn-default am-{{className}}">$active 按钮$</button>
+        {{else}}
+        {{#ifCond className '==' 'disabled'}}
+<button type="button" class="am-btn am-btn-default am-{{className}}">$disabled 按钮$</button>
+        {{else}}
+            {{#ifCond className '==' 'radius'}}
+<button type="button" class="am-btn am-btn-default am-{{className}}">$radius 按钮$</button>
+            {{else}}
+<button type="button" class="am-btn am-btn-default am-btn-{{className}}">$按钮$</button>
+            {{/ifCond}}
+        {{/ifCond}}
+    {{/ifCond}}
+{{/ifCond}}
+{{/if}}

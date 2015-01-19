@@ -100,12 +100,14 @@ function compileWebstorm() {
     var regLt = /</mg,
         regGt = />/mg,
         regQuo = /\"/mg,
+        regAnd = /&/mg,
         regTab = /\$([^\$]+)\$/img;
 
     var snippet = value.data;
     var arrNum = snippet.match(regTab);
     var tabVariable = [];
 
+    snippet = snippet.replace(regAnd, '&amp;');
     snippet = snippet.replace(regLt, '&lt;');
     snippet = snippet.replace(regGt, '&gt;');
     snippet = snippet.replace(regQuo, '&quot;');
@@ -116,6 +118,8 @@ function compileWebstorm() {
       tabVariable.push('    <variable name="'+ varName +'" expression="&quot;'+ $1 +'&quot;" defaultValue="" alwaysStopAt="true" />');
       return $1 = '$' + varName + '$';
     });
+
+    snippet = snippet.trim();
 
     var liveTpl = [
       '  <template name="'+ triggerName +'" value="'+ snippet +'" toReformat="true" toShortenFQNames="true">\n',
@@ -168,6 +172,8 @@ function compileSublime(data) {
       var num = _.indexOf(arr, $0) + 1;
       return '${'+ num + ':' + $1 + '}';
     });
+
+    snippet = snippet.trim();
 
     result = [
       '<snippet>',

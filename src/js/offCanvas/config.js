@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-  name: 'offCanvas',
+  name: 'offcanvas',
   classNames: ['flip']
 };

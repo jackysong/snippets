@@ -1,1 +1,14 @@
+{{#unless className}}
 <span class="am-badge{{#if className}} am-badge-{{className}}{{/if}}">$小徽章$</span>
+{{/unless}}
+{{#if className}}
+{{#ifCond className '==' 'radius'}}
+<span class="am-badge{{#if className}} am-badge-{{className}}{{/if}}">$圆角小徽章$</span>
+{{else}}
+    {{#ifCond className '==' 'round'}}
+<span class="am-badge{{#if className}} am-badge-{{className}}{{/if}}">$椭圆小徽章$</span>
+    {{else}}
+<span class="am-badge{{#if className}} am-badge-{{className}}{{/if}}">$小徽章$</span>
+    {{/ifCond}}
+{{/ifCond}}
+{{/if}}
