@@ -29,4 +29,9 @@ node_modules
 
 .idea
 
+# build
 dist
+.build
+
+# zip files
+vendor
