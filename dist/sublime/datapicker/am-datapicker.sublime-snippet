@@ -1,8 +1,0 @@
-<snippet>
-  <content>
-    <![CDATA[
-<p><input type="text" class="am-form-field" placeholder="${1:日历组件}" data-am-datepicker /></p>
-    ]]>
-  </content>
-  <tabTrigger>am-datapicker</tabTrigger>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-  <content>
-    <![CDATA[
-<!-- 触发 button -->
-<button class="am-btn am-btn-secondary" data-am-modal="{target: '#${1:my-id}'}">prompt</button>
-    ]]>
-  </content>
-  <tabTrigger>am-modal:prompt</tabTrigger>
-</snippet>
