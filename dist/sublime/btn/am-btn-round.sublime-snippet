@@ -1,8 +1,0 @@
-<snippet>
-  <content>
-    <![CDATA[
-<button type="button" class="am-btn am-btn-default am-round">${1:round 按钮}</button>
-    ]]>
-  </content>
-  <tabTrigger>am-btn:round</tabTrigger>
-</snippet>

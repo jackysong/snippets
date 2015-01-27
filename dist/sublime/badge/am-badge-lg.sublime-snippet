@@ -1,8 +1,0 @@
-<snippet>
-  <content>
-    <![CDATA[
-<span class="am-badge am-badge-lg">${1:小徽章}</span>
-    ]]>
-  </content>
-  <tabTrigger>am-badge:lg</tabTrigger>
-</snippet>

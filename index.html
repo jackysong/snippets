@@ -1,0 +1,1227 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title> | Amaze UI 插件</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="icon" type="image/png"
+        href="http://a.static.amazeui.org/assets/i/favicon.png">
+  <link rel="stylesheet"
+        href="http://cdn.amazeui.org/amazeui/2.1.0/css/amazeui.min.css">
+  <link rel="stylesheet" href="http://a.static.amazeui.org/assets/plugin/css/app.min.css">
+  <!--[if (gte IE 9)|!(IE)]><!-->
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="http://cdn.amazeui.org/amazeui/2.1.0/js/amazeui.min.js"></script>
+  <!--<![endif]-->
+  <!--[if lte IE 8 ]>
+  <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+  <![endif]-->
+  
+</head>
+<body class="am-plugin">
+<header class="am-topbar am-topbar-inverse">
+  <div class="am-container">
+    <h1 class="am-topbar-brand">
+      <a href="http://amazeui.org" class="am-text-ir">Amaze UI</a>
+      <span class="am-badge am-badge-danger">Plugin</span>
+    </h1>
+  </div>
+</header>
+<section class="amp-banner">
+  <div class="am-container">
+    <h1>Amaze UI Snippets</h1>
+    <p class="">Amaze UI 代码片段，快速编写基于Amaze UI的网站...</p>
+      <p>
+        <a class="github-button" href="https://github.com/amazeui/snippets">Star</a>
+        <a class="github-button" href="https://github.com/amazeui/snippets">Fork</a>
+        <a class="github-button" href="https://github.com/amazeui/snippets/archive/master.zip">Download</a>
+      </p>
+  </div>
+</section>
+
+<section class="amp-main">
+  <div class="am-container">
+    <h2><a name="Amaze%20UI%20Snippets" class="anchor" href="#Amaze%20UI%20Snippets"><span class="header-link"></span></a>Amaze UI Snippets</h2><hr>
+<p>Amaze UI Snippets for Editor/IDE.</p>
+<h2><a name="%E4%BD%BF%E7%94%A8%E6%95%88%E6%9E%9C" class="anchor" href="#%E4%BD%BF%E7%94%A8%E6%95%88%E6%9E%9C"><span class="header-link"></span></a>使用效果</h2><p><img src="snippets.gif" alt="snippets"></p>
+<h2><a name="%E5%AE%89%E8%A3%85" class="anchor" href="#%E5%AE%89%E8%A3%85"><span class="header-link"></span></a>安装</h2><ul>
+<li><p>现目前还没有添加到官方插件中使用如下：  </p>
+</li>
+<li><p>Sublime Text 2/3 打开 <code>Preferences &gt; Browse Packages</code>. 在 <code>Browse Packages</code> 下创建 AmazeUI 目录，把 dist 目录 sublime 内的文件复制创建好的 <code>AmazeUI</code> 目录下。</p>
+</li>
+<li><p>webStorm 打开 <code>Preferences &gt; Live Templates</code> 增加 AmazeUI 代码片段，把 <code>dist</code> 目录下的 <code>AmazeUI.xml</code> 拷贝到 <code>Live Templates</code> 你自定义的代码片段下。</p>
+</li>
+</ul>
+<h2><a name="CSS%20%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E7%9B%AE%E5%BD%95" class="anchor" href="#CSS%20%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E7%9B%AE%E5%BD%95"><span class="header-link"></span></a>CSS 代码片段目录</h2><h3><a name="CDN" class="anchor" href="#CDN"><span class="header-link"></span></a>CDN</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead><th>组件</th><th>代码片段</th></thead>
+  <tbody>
+    <tr><td>CDN 链接 (both CSS & JS)</td><td>am-cdn</td></tr>
+    <tr><td>CDN 链接 (CSS only)</td><td>am-cdn:css</td></tr>
+    <tr><td>CDN 链接 (JS only)</td><td>am-cdn:js</td></tr>
+  </tbody>
+</table>
+
+<h3><a name="HTML" class="anchor" href="#HTML"><span class="header-link"></span></a>HTML</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead><th>组件</th><th>代码片段</th></thead>
+  <tbody>    
+    <tr><td>HTML5 布局模板</td><td>am-html</td></tr>
+  </tbody>
+</table>
+
+<h3><a name="Grid%20%E7%BD%91%E6%A0%BC" class="anchor" href="#Grid%20%E7%BD%91%E6%A0%BC"><span class="header-link"></span></a>Grid 网格</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>grid 基础代码</td>
+    <td>am-grid</td>
+    </tr>
+    <tr>
+    <td>.am-container</td>
+    <td>am-grid:container</td>
+    </tr>
+    <tr>
+    <td>.am-g-fixed</td>
+    <td>am-grid:fixed</td>
+    </tr>
+    <tr>
+    <td>.am-g-collapse</td>
+    <td>am-grid:collapse</td>
+    </tr>
+    <tr>
+    <td>grid:1</td>
+    <td>am-grid:1</td>
+    </tr>
+    <tr>
+    <td>grid:2</td>
+    <td>am-grid:2</td>
+    </tr>
+    <tr>
+    <td>grid:3</td>
+    <td>am-grid:3</td>
+    </tr>
+    <tr>
+    <td>grid:4</td>
+    <td>am-grid:4</td>
+    </tr>
+    <tr>
+    <td>grid:5</td>
+    <td>am-grid:5</td>
+    </tr>
+    <tr>
+    <td>grid:6</td>
+    <td>am-grid:6</td>
+    </tr>
+    <tr>
+    <td>grid:7</td>
+    <td>am-grid:7</td>
+    </tr>
+    <tr>
+    <td>grid:8</td>
+    <td>am-grid:8</td>
+    </tr>
+    <tr>
+    <td>grid:9</td>
+    <td>am-grid:9</td>
+    </tr>
+    <tr>
+    <td>grid:10</td>
+    <td>am-grid:10</td>
+    </tr>
+    <tr>
+    <td>grid:11</td>
+    <td>am-grid:11</td>
+    </tr>
+    <tr>
+    <td>grid:12</td>
+    <td>am-grid:12</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="AVG-Grid" class="anchor" href="#AVG-Grid"><span class="header-link"></span></a>AVG-Grid</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>AVG-Grid 等分网格</td>
+    <td>am-avggrid</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Button%20%E6%8C%89%E9%92%AE" class="anchor" href="#Button%20%E6%8C%89%E9%92%AE"><span class="header-link"></span></a>Button 按钮</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>按钮</td>
+    <td>am-btn</td>
+    </tr>
+    <tr>
+    <td>按钮颜色:default</td>
+    <td>am-btn:default</td>
+    </tr>
+    <tr>
+    <td>按钮颜色:primary</td>
+    <td>am-btn:primary</td>
+    </tr>
+    <tr>
+    <td>按钮颜色:secondary</td>
+    <td>am-btn:secondary</td>
+    </tr>
+    <tr>
+    <td>按钮颜色:success</td>
+    <td>am-btn:success</td>
+    </tr>
+    <tr>
+    <td>按钮颜色:warning</td>
+    <td>am-btn:warning</td>
+    </tr>
+    <tr>
+    <td>按钮颜色:danger</td>
+    <td>am-btn:danger</td>
+    </tr>
+    <tr>
+    <td>按钮大小:lg</td>
+    <td>am-btn:lg</td>
+    </tr>
+    <tr>
+    <td>按钮大小:xl</td>
+    <td>am-btn:xl</td>
+    </tr>
+    <tr>
+    <td>按钮大小:sm</td>
+    <td>am-btn:sm</td>
+    </tr>
+    <tr>
+    <td>按钮大小:xs</td>
+    <td>am-btn:xs</td>
+    </tr>
+    <tr>
+    <td>圆角按钮</td>
+    <td>am-btn:radius</td>
+    </tr>
+    <tr>
+    <td>椭圆形按钮</td>
+    <td>am-btn:round</td>
+    </tr>
+    <tr>
+    <td>激活状态按钮</td>
+    <td>am-btn:active</td>
+    </tr>
+    <tr>
+    <td>禁用状态按钮</td>
+    <td>am-btn:disabled</td>
+    </tr>
+    <tr>
+    <td>块级按钮</td>
+    <td>am-btn:block</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Code%20%E4%BB%A3%E7%A0%81" class="anchor" href="#Code%20%E4%BB%A3%E7%A0%81"><span class="header-link"></span></a>Code 代码</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>Code 代码块</td>
+    <td>am-code</td>
+    </tr>
+    <tr>
+    <td>Code:scrollable代码高度控制</td>
+    <td>am-code:scrollable</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Form%20%E8%A1%A8%E5%8D%95" class="anchor" href="#Form%20%E8%A1%A8%E5%8D%95"><span class="header-link"></span></a>Form 表单</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基础表单</td>
+    <td>am-form</td>
+    </tr>
+    <tr>
+    <td>行内表单</td>
+    <td>am-form:inline</td>
+    </tr>
+    <tr>
+    <td>水平排列表单</td>
+    <td>am-form:horizontal</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Image%20%E5%9B%BE%E7%89%87" class="anchor" href="#Image%20%E5%9B%BE%E7%89%87"><span class="header-link"></span></a>Image 图片</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基础图片</td>
+    <td>am-img</td>
+    </tr>
+    <tr>
+    <td>圆角图片</td>
+    <td>am-img:radius</td>
+    </tr>
+    <tr>
+    <td>椭圆形图片</td>
+    <td>am-img:round</td>
+    </tr>
+    <tr>
+    <td>圆形图片</td>
+    <td>am-form:circle</td>
+    </tr>
+    <tr>
+    <td>图片边框</td>
+    <td>am-form:thumbnail</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Table%20%E8%A1%A8%E6%A0%BC" class="anchor" href="#Table%20%E8%A1%A8%E6%A0%BC"><span class="header-link"></span></a>Table 表格</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基础表格</td>
+    <td>am-table</td>
+    </tr>
+    <tr>
+    <td>圆角表格</td>
+    <td>am-table:radius</td>
+    </tr>
+    <tr>
+    <td>基本边框表格</td>
+    <td>am-table:bordered</td>
+    </tr>
+    <tr>
+    <td>斑马纹效果表格</td>
+    <td>am-table:striped</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Badge%20%E5%B0%8F%E5%BE%BD%E7%AB%A0" class="anchor" href="#Badge%20%E5%B0%8F%E5%BE%BD%E7%AB%A0"><span class="header-link"></span></a>Badge 小徽章</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>Badge:基础样式</td>
+    <td>am-badge</td>
+    </tr>
+    <tr>
+    <td>Badge:圆角样式</td>
+    <td>am-badge:radius</td>
+    </tr>
+    <tr>
+    <td>Badge:椭圆样式</td>
+    <td>am-badge:round</td>
+    </tr>
+    <tr>
+    <td>Badge:primary 颜色</td>
+    <td>am-badge:primary</td>
+    </tr>
+    <tr>
+    <td>Badge:secondary 颜色</td>
+    <td>am-badge:secondary</td>
+    </tr>
+    <tr>
+    <td>Badge:success 颜色</td>
+    <td>am-badge:success</td>
+    </tr>
+    <tr>
+    <td>Badge:warning 颜色</td>
+    <td>am-badge:warning</td>
+    </tr>
+    <tr>
+    <td>Badge:danger 颜色</td>
+    <td>am-badge:danger</td>
+    </tr>
+    <tr>
+    <td>Badge:xl 大小</td>
+    <td>am-badge:xl</td>
+    </tr>
+    <tr>
+    <td>Badge:lg 大小</td>
+    <td>am-badge:xl</td>
+    </tr>
+    <tr>
+    <td>Badge:sm 大小</td>
+    <td>am-badge:sm</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Breadcrumb%20%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA" class="anchor" href="#Breadcrumb%20%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA"><span class="header-link"></span></a>Breadcrumb 面包屑导航</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基础面包屑</td>
+    <td>am-breadcrumb</td>
+    </tr>
+    <tr>
+    <td>斜杆分隔符</td>
+    <td>am-breadcrumb:slash</td>
+    </tr>
+    <tr>
+    <td>结合 Icon</td>
+    <td>am-breadcrumb:icon</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Button-group%20%E6%8C%89%E9%92%AE%E7%BB%84" class="anchor" href="#Button-group%20%E6%8C%89%E9%92%AE%E7%BB%84"><span class="header-link"></span></a>Button-group 按钮组</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基础按钮组</td>
+    <td>am-btn-group</td>
+    </tr>
+    <tr>
+    <td>按钮工具栏</td>
+    <td>am-btn-group:toolbar</td>
+    </tr>
+    <tr>
+    <td>垂直排列</td>
+    <td>am-btn-group:stacked</td>
+    </tr>
+    <tr>
+    <td>自适应宽度</td>
+    <td>am-btn-group:justify</td>
+    </tr>
+    <tr>
+    <td>按钮组大小:lg</td>
+    <td>am-btn-group:lg</td>
+    </tr>
+    <tr>
+    <td>按钮组大小:sm</td>
+    <td>am-btn-group:sm</td>
+    </tr>
+    <tr>
+    <td>按钮组大小:xs</td>
+    <td>am-btn-group:xs</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Close%20%E5%85%B3%E9%97%AD%E6%8C%89%E9%92%AE" class="anchor" href="#Close%20%E5%85%B3%E9%97%AD%E6%8C%89%E9%92%AE"><span class="header-link"></span></a>Close 关闭按钮</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基础关闭按钮</td>
+    <td>am-close</td>
+    </tr>
+    <tr>
+    <td>带边框样式</td>
+    <td>am-close:alt</td>
+    </tr>
+    <tr>
+    <td>hover 旋转</td>
+    <td>am-close:spin</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Comment%20%E8%AF%84%E8%AE%BA%E5%88%97%E8%A1%A8" class="anchor" href="#Comment%20%E8%AF%84%E8%AE%BA%E5%88%97%E8%A1%A8"><span class="header-link"></span></a>Comment 评论列表</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-comment</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Icon%20%E5%AD%97%E4%BD%93%E5%9B%BE%E6%A0%87" class="anchor" href="#Icon%20%E5%AD%97%E4%BD%93%E5%9B%BE%E6%A0%87"><span class="header-link"></span></a>Icon 字体图标</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-icon</td>
+    </tr>
+    <tr>
+    <td>Icon button</td>
+    <td>am-icon:btn</td>
+    </tr>
+    <tr>
+    <td>旋转动画</td>
+    <td>am-icon:spin</td>
+    </tr>
+    <tr>
+    <td>Icon:lg 大小</td>
+    <td>am-icon:lg</td>
+    </tr>
+    <tr>
+    <td>Icon:md 大小</td>
+    <td>am-icon:md</td>
+    </tr>
+    <tr>
+    <td>Icon:sm 大小</td>
+    <td>am-icon:sm</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Input%20Group%20%E8%BE%93%E5%85%A5%E6%A1%86%E7%BB%84" class="anchor" href="#Input%20Group%20%E8%BE%93%E5%85%A5%E6%A1%86%E7%BB%84"><span class="header-link"></span></a>Input Group 输入框组</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-input-group</td>
+    </tr>
+    <tr>
+    <td>输入框结合 Button</td>
+    <td>am-input-group:btn</td>
+    </tr>
+    <tr>
+    <td>Input Group: primary 颜色</td>
+    <td>am-input-group:primary</td>
+    </tr>
+    <tr>
+    <td>Input Group: secondary 颜色</td>
+    <td>am-input-group:secondary</td>
+    </tr>
+    <tr>
+    <td>Input Group: success 颜色</td>
+    <td>am-input-group:success</td>
+    </tr>
+    <tr>
+    <td>Input Group: warning 颜色</td>
+    <td>am-input-group:warning</td>
+    </tr>
+    <tr>
+    <td>Input Group: danger 颜色</td>
+    <td>am-input-group:danger</td>
+    </tr>
+    <tr>
+    <td>Input Group: lg 大小</td>
+    <td>am-input-group:lg</td>
+    </tr>
+    <tr>
+    <td>Input Group: sm 大小</td>
+    <td>am-input-group:sm</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="List%20%E5%88%97%E8%A1%A8" class="anchor" href="#List%20%E5%88%97%E8%A1%A8"><span class="header-link"></span></a>List 列表</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-list</td>
+    </tr>
+    <tr>
+    <td>纯文字列表</td>
+    <td>am-list:static</td>
+    </tr>
+    <tr>
+    <td>列表边框</td>
+    <td>am-list:border</td>
+    </tr>
+    <tr>
+    <td>斑马纹列表</td>
+    <td>am-list:striped</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Nav%20%E5%AF%BC%E8%88%AA" class="anchor" href="#Nav%20%E5%AF%BC%E8%88%AA"><span class="header-link"></span></a>Nav 导航</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-nav</td>
+    </tr>
+    <tr>
+    <td>水平导航</td>
+    <td>am-nav:pills</td>
+    </tr>
+    <tr>
+    <td>标签式导航</td>
+    <td>am-nav:tabs</td>
+    </tr>
+    <tr>
+    <td>宽度自适应</td>
+    <td>am-nav:justify</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Topbar%20%E5%AF%BC%E8%88%AA%E6%9D%A1" class="anchor" href="#Topbar%20%E5%AF%BC%E8%88%AA%E6%9D%A1"><span class="header-link"></span></a>Topbar 导航条</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-topbar</td>
+    </tr>
+    <tr>
+    <td>深色样式</td>
+    <td>am-topbar:inverse</td>
+    </tr>
+    <tr>
+    <td>底部固定</td>
+    <td>am-topbar:fixed-bottom</td>
+    </tr>
+    <tr>
+    <td>顶部固定</td>
+    <td>am-topbar:fixed-top</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Pagination%20%E5%88%86%E9%A1%B5" class="anchor" href="#Pagination%20%E5%88%86%E9%A1%B5"><span class="header-link"></span></a>Pagination 分页</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-pagination</td>
+    </tr>
+    <tr>
+    <td>居中对齐</td>
+    <td>am-pagination:centered</td>
+    </tr>
+    <tr>
+    <td>右对齐</td>
+    <td>am-pagination:right</td>
+    </tr>
+    <tr>
+    <td>左右分布</td>
+    <td>am-pagination:prevnext</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Panel%20%E9%9D%A2%E6%9D%BF" class="anchor" href="#Panel%20%E9%9D%A2%E6%9D%BF"><span class="header-link"></span></a>Panel 面板</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-panel</td>
+    </tr>
+    <tr>
+    <td>面板颜色: primary</td>
+    <td>am-panel:primary</td>
+    </tr>
+    <tr>
+    <td>面板颜色: secondary</td>
+    <td>am-panel:secondary</td>
+    </tr>
+    <tr>
+    <td>面板颜色: success</td>
+    <td>am-panel:success</td>
+    </tr>
+    <tr>
+    <td>面板颜色: warning</td>
+    <td>am-panel:warning</td>
+    </tr>
+    <tr>
+    <td>面板颜色: danger</td>
+    <td>am-panel:danger</td>
+    </tr>
+    <tr>
+    <td>面板页脚</td>
+    <td>am-panel:footer</td>
+    </tr>
+    <tr>
+    <td>面板嵌套表格</td>
+    <td>am-panel:table</td>
+    </tr>
+    <tr>
+    <td>面板嵌套列表</td>
+    <td>am-panel:list</td>
+    </tr>
+    <tr>
+    <td>面板群组</td>
+    <td>am-panel:group</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Progress%20%E8%BF%9B%E5%BA%A6%E6%9D%A1" class="anchor" href="#Progress%20%E8%BF%9B%E5%BA%A6%E6%9D%A1"><span class="header-link"></span></a>Progress 进度条</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-progress</td>
+    </tr>
+    <tr>
+    <td>进度条颜色: secondary</td>
+    <td>am-progress:secondary</td>
+    </tr>
+    <tr>
+    <td>进度条颜色: success</td>
+    <td>am-progress:success</td>
+    </tr>
+    <tr>
+    <td>进度条颜色: warning</td>
+    <td>am-progress:warning</td>
+    </tr>
+    <tr>
+    <td>进度条颜色: danger</td>
+    <td>am-progress:danger</td>
+    </tr>
+    <tr>
+    <td>进度条高度: xs</td>
+    <td>am-progress:xs</td>
+    </tr>
+    <tr>
+    <td>进度条高度: sm</td>
+    <td>am-progress:sm</td>
+    </tr>
+    <tr>
+    <td>进度条条纹: striped</td>
+    <td>am-progress:striped</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Thumbnail%20%E7%BC%A9%E7%95%A5%E5%9B%BE" class="anchor" href="#Thumbnail%20%E7%BC%A9%E7%95%A5%E5%9B%BE"><span class="header-link"></span></a>Thumbnail 缩略图</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-thumbnail</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Animation%20%E5%8A%A8%E7%94%BB" class="anchor" href="#Animation%20%E5%8A%A8%E7%94%BB"><span class="header-link"></span></a>Animation 动画</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-animation</td>
+    </tr>
+    <tr>
+    <td>动画效果: fade</td>
+    <td>am-animation:fade</td>
+    </tr>
+    <tr>
+    <td>动画效果: scale-up</td>
+    <td>am-animation:scale-up</td>
+    </tr>
+    <tr>
+    <td>动画效果: scale-down</td>
+    <td>am-animation:scale-down</td>
+    </tr>
+    <tr>
+    <td>动画效果: slide-top</td>
+    <td>am-animation:slide-top</td>
+    </tr>
+    <tr>
+    <td>动画效果: slide-bottom</td>
+    <td>am-animation:slide-bottom</td>
+    </tr>
+    <tr>
+    <td>动画效果: slide-left</td>
+    <td>am-animation:slide-left</td>
+    </tr>
+    <tr>
+    <td>动画效果: slide-right</td>
+    <td>am-animation:slide-right</td>
+    </tr>
+    <tr>
+    <td>动画效果: shake</td>
+    <td>am-animation:shake</td>
+    </tr>
+    <tr>
+    <td>动画效果: spin</td>
+    <td>am-animation:spin</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Article%20%E6%96%87%E7%AB%A0%E5%86%85%E5%AE%B9" class="anchor" href="#Article%20%E6%96%87%E7%AB%A0%E5%86%85%E5%AE%B9"><span class="header-link"></span></a>Article 文章内容</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-article</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2><a name="JS%20%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E7%9B%AE%E5%BD%95" class="anchor" href="#JS%20%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5%E7%9B%AE%E5%BD%95"><span class="header-link"></span></a>JS 代码片段目录</h2><h3><a name="Alert%20%E8%AD%A6%E5%91%8A%E6%A1%86" class="anchor" href="#Alert%20%E8%AD%A6%E5%91%8A%E6%A1%86"><span class="header-link"></span></a>Alert 警告框</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-alert</td>
+    </tr>
+    <tr>
+    <td>颜色: success</td>
+    <td>am-alert:success</td>
+    </tr>
+    <tr>
+    <td>颜色: warning</td>
+    <td>am-alert:warning</td>
+    </tr>
+    <tr>
+    <td>颜色: danger</td>
+    <td>am-alert:danger</td>
+    </tr>
+    <tr>
+    <td>颜色: secondary</td>
+    <td>am-alert:secondary</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Collapse%20%E6%8A%98%E5%8F%A0" class="anchor" href="#Collapse%20%E6%8A%98%E5%8F%A0"><span class="header-link"></span></a>Collapse 折叠</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-collapse</td>
+    </tr>
+    <tr>
+    <td>折叠面板</td>
+    <td>am-collapse:accordion</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Dropdown%20%E4%B8%8B%E6%8B%89%E7%BB%84%E4%BB%B6" class="anchor" href="#Dropdown%20%E4%B8%8B%E6%8B%89%E7%BB%84%E4%BB%B6"><span class="header-link"></span></a>Dropdown 下拉组件</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-dropdown</td>
+    </tr>
+    <tr>
+    <td>上拉列表</td>
+    <td>am-dropdown:up</td>
+    </tr>
+    <tr>
+    <td>下拉内容</td>
+    <td>am-dropdown:content</td>
+    </tr>
+    <tr>
+    <td>宽度适应</td>
+    <td>am-dropdown:justify</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Modal%20%E6%A8%A1%E6%80%81%E7%AA%97%E5%8F%A3" class="anchor" href="#Modal%20%E6%A8%A1%E6%80%81%E7%AA%97%E5%8F%A3"><span class="header-link"></span></a>Modal 模态窗口</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-modal</td>
+    </tr>
+    <tr>
+    <td>模拟 Alert</td>
+    <td>am-modal:alert</td>
+    </tr>
+    <tr>
+    <td>模拟 Confirm</td>
+    <td>am-modal:confirm</td>
+    </tr>
+    <tr>
+    <td>模拟 Prompt</td>
+    <td>am-modal:prompt</td>
+    </tr>
+    <tr>
+    <td>模拟 Loading</td>
+    <td>am-modal:loading</td>
+    </tr>
+    <tr>
+    <td>模拟 Actions</td>
+    <td>am-modal:actions</td>
+    </tr>
+    <tr>
+    <td>模拟 Popup</td>
+    <td>am-modal:popup</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Popover%20%E5%BC%B9%E5%87%BA%E6%A1%86" class="anchor" href="#Popover%20%E5%BC%B9%E5%87%BA%E6%A1%86"><span class="header-link"></span></a>Popover 弹出框</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-popover</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="Slider%20%E5%9B%BE%E7%89%87%E8%BD%AE%E6%92%AD" class="anchor" href="#Slider%20%E5%9B%BE%E7%89%87%E8%BD%AE%E6%92%AD"><span class="header-link"></span></a>Slider 图片轮播</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-slider</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3><a name="OffCanvas%20%E4%BE%A7%E8%BE%B9%E6%A0%8F" class="anchor" href="#OffCanvas%20%E4%BE%A7%E8%BE%B9%E6%A0%8F"><span class="header-link"></span></a>OffCanvas 侧边栏</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-offcanvas</td>
+    </tr>
+    <tr>
+    <td>右侧显示</td>
+    <td>am-offcanvas:flip</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="ScrollSpy%20%E6%BB%9A%E5%8A%A8%E4%BE%A6%E6%B5%8B" class="anchor" href="#ScrollSpy%20%E6%BB%9A%E5%8A%A8%E4%BE%A6%E6%B5%8B"><span class="header-link"></span></a>ScrollSpy 滚动侦测</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-scrollspy</td>
+    </tr>
+    <tr>
+    <td>动画形式:fade</td>
+    <td>am-scrollspy:fade</td>
+    </tr>
+    <tr>
+    <td>动画形式:scale-down</td>
+    <td>am-scrollspy:scale-down</td>
+    </tr>
+    <tr>
+    <td>动画形式:scale-up</td>
+    <td>am-scrollspy:scale-up</td>
+    </tr>
+    <tr>
+    <td>动画形式:shake</td>
+    <td>am-scrollspy:shake</td>
+    </tr>
+    <tr>
+    <td>动画形式:slide-bottom</td>
+    <td>am-scrollspy:slide-bottom</td>
+    </tr>
+    <tr>
+    <td>动画形式:slide-left</td>
+    <td>am-scrollspy:slide-left</td>
+    </tr>
+    <tr>
+    <td>动画形式:slide-right</td>
+    <td>am-scrollspy:slide-right</td>
+    </tr>
+    <tr>
+    <td>动画形式:slide-up</td>
+    <td>am-scrollspy:slide-up</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="ScrollSpyNav%20%E6%BB%9A%E5%8A%A8%E4%BE%A6%E6%B5%8B%E5%AF%BC%E8%88%AA" class="anchor" href="#ScrollSpyNav%20%E6%BB%9A%E5%8A%A8%E4%BE%A6%E6%B5%8B%E5%AF%BC%E8%88%AA"><span class="header-link"></span></a>ScrollSpyNav 滚动侦测导航</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-scrollspy-nav</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Smooth%20Scroll%20%E5%B9%B3%E6%BB%91%E6%BB%9A%E5%8A%A8" class="anchor" href="#Smooth%20Scroll%20%E5%B9%B3%E6%BB%91%E6%BB%9A%E5%8A%A8"><span class="header-link"></span></a>Smooth Scroll 平滑滚动</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-smoothscroll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Sticky%20%E5%9B%BA%E5%AE%9A%E5%85%83%E7%B4%A0" class="anchor" href="#Sticky%20%E5%9B%BA%E5%AE%9A%E5%85%83%E7%B4%A0"><span class="header-link"></span></a>Sticky 固定元素</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-sticky</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Tabs%20%E9%80%89%E9%A1%B9%E5%8D%A1" class="anchor" href="#Tabs%20%E9%80%89%E9%A1%B9%E5%8D%A1"><span class="header-link"></span></a>Tabs 选项卡</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-tabs</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Datepicker%20%E6%97%A5%E6%9C%9F%E7%BB%84%E4%BB%B6" class="anchor" href="#Datepicker%20%E6%97%A5%E6%9C%9F%E7%BB%84%E4%BB%B6"><span class="header-link"></span></a>Datepicker 日期组件</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-datapicker</td>
+    </tr>
+    <tr>
+    <td>结合组件使用</td>
+    <td>am-datapicker:group</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="Selected%20%E4%B8%8B%E6%8B%89%E9%80%89%E6%A1%86" class="anchor" href="#Selected%20%E4%B8%8B%E6%8B%89%E9%80%89%E6%A1%86"><span class="header-link"></span></a>Selected 下拉选框</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-selected</td>
+    </tr>
+    <tr>
+    <td>多选下拉框</td>
+    <td>am-selected:multiple</td>
+    </tr>
+    <tr>
+    <td>分组多选下拉框</td>
+    <td>am-selected:group</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="uCheck%20%E5%8D%95%2F%E5%A4%9A%E9%80%89%E6%A1%86" class="anchor" href="#uCheck%20%E5%8D%95%2F%E5%A4%9A%E9%80%89%E6%A1%86"><span class="header-link"></span></a>uCheck 单/多选框</h3><table class="am-table am-table-bordered am-table-striped am-table-hover">
+  <thead>
+    <tr>
+    <th>组件</th>
+    <th>代码片段</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>基本样式</td>
+    <td>am-ucheck</td>
+    </tr>
+    <tr>
+    <td>选框状态: checked</td>
+    <td>am-ucheck:checked</td>
+    </tr>
+    <tr>
+    <td>选框状态: disabled</td>
+    <td>am-ucheck:disabled</td>
+    </tr>
+  </tbody>
+</table>
+
+    <nav class="amp-pager">
+    </nav>
+  </div>
+</section>
+
+<footer class="amp-footer"><div class="am-g am-g-fixed"><div class="am-u-md-4 am-u-md-push-8"><ul class="amz-social"><li><a href="javascript: void(0)" data-am-popover="{content: 'Amaze UI 交流 Q 群：374946651'}" title="Amaze UI 用户交流群" target="_blank"><span class="am-icon-qq"></span></a></li><li><a href="http://weibo.com/allmobilize" title="云适配微博" target="_blank"><span class="am-icon-weibo"></span></a></li><li><a href="#am-wechat" title="云适配微信" data-am-modal><span class="am-icon-wechat"></span></a></li><li><a class="new-issue" href="https://github.com/allmobilize/amazeui/issues/new?title=Bug%3A%20&body=**%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0**%0A%0A%EF%BC%88%E6%8F%8F%E8%BF%B0%E4%B8%80%E4%B8%8B%E9%97%AE%E9%A2%98%EF%BC%89%0A%0A**%E4%BA%A7%E7%94%9F%E7%8E%AF%E5%A2%83**%0A%0A-%20%E8%AE%BE%E5%A4%87%EF%BC%9A%EF%BC%88%E6%89%8B%E6%9C%BA%E3%80%81%E5%B9%B3%E6%9D%BF%E7%AD%89%E7%A7%BB%E5%8A%A8%E8%AE%BE%E5%A4%87%E6%97%B6%E5%A1%AB%E5%86%99%E6%AD%A4%E9%A1%B9%EF%BC%89%0A-%20%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%8F%8A%E7%89%88%E6%9C%AC%EF%BC%9A%0A-%20%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8F%8A%E7%89%88%E6%9C%AC%EF%BC%9A%0A-%20%E6%BC%94%E7%A4%BA%E5%9C%B0%E5%9D%80%EF%BC%9A%0A%0A**%E5%A4%8D%E7%8E%B0%E6%AD%A5%E5%A5%8F**%0A%0A1.%20%0A2.%20%0A...%20%0A%20%0A**UA:**%20%0A" target="_blank" title="Bug 反馈"><span class="am-icon-paper-plane"></span></a></li></ul></div><div class="col-md-8 col-md-pull-4 am-u-md-8 am-u-md-pull-4"><h2 class="amz-fd"><a>云适配</a></h2><ul class="amz-links"><li><a href="http://amazeui.org/about/wantu" class="am-icon-heart">&nbsp;妹子招亲</a> | <a href="http://amazeui.org/about/contact">联系我们</a></li></ul><p class="amz-cp">&copy; 2015 AllMobilize, Inc. <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>. Developed with <a href="http://www.jetbrains.com/webstorm/" target="_blank">WebStorm</a>.</p></div></div></footer><div class="am-modal am-modal-no-btn" tabindex="-1" id="am-wechat"><div class="am-modal-dialog"><div class="am-modal-hd"><a href="" class="am-close am-close-spin" data-am-modal-close>&times;</a></div><div class="am-modal-bd"><img src="http://a.static.amazeui.org/assets/2.x/i/am/qr-ui.jpg" alt="Amaze UI 微信"/><br/>在微信上关注我们</div></div></div><div class="amp-toolbar" id="amp-toolbar"><a href="#top" title="回到顶部" class="am-icon-btn am-icon-arrow-up" id="amp-go-top"></a></div>
+<script src="http://a.static.amazeui.org/assets/plugin/js/app.min.js"></script>
+  <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+</html>

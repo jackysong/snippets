@@ -1,8 +1,0 @@
-<snippet>
-  <content>
-    <![CDATA[
-<button type="button" class="am-closeam-close-spin">&times;</button>
-    ]]>
-  </content>
-  <tabTrigger>am-close:spin</tabTrigger>
-</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-  <content>
-    <![CDATA[
-<button data-am-smooth-scroll type="button">${1:滚动到顶部}</button>
-    ]]>
-  </content>
-  <tabTrigger>am-smoothscroll</tabTrigger>
-</snippet>

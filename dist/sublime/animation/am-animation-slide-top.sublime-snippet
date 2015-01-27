@@ -1,8 +1,0 @@
-<snippet>
-  <content>
-    <![CDATA[
-<div class="am-animation-slide-top${1: am-animation-reverse}">slide-top</div>
-    ]]>
-  </content>
-  <tabTrigger>am-animation:slide-top</tabTrigger>
-</snippet>

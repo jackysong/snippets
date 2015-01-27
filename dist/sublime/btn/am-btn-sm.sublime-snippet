@@ -1,8 +1,0 @@
-<snippet>
-  <content>
-    <![CDATA[
-<button type="button" class="am-btn am-btn-default am-btn-sm">${1:按钮}</button>
-    ]]>
-  </content>
-  <tabTrigger>am-btn:sm</tabTrigger>
-</snippet>
