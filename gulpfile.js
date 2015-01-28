@@ -81,8 +81,7 @@ var data = (function readData() {
 var cssData = compileHBS(data.cssTpl, data.cssConfig);
 var jsData = compileHBS(data.jsTpl, data.jsConfig);
 
-function compileWebstorm() {  
-
+function compileWebstorm() {
   var result = [];
   var fileName = 'AmazeUI.xml';
   var dirPath = __dirname + config.dist.webstorm;
@@ -153,7 +152,7 @@ function compileSublime(data) {
     var dirName = dirPath + '/' + value.name;
     var fileName = dirName + '/' + prefixName + value.name;
     var snippet = value.data;
-    var result;    
+    var result;
     var regTab = /\$([^\$]+)\$/img;
     var arr = snippet.match(regTab);
 
@@ -162,7 +161,7 @@ function compileSublime(data) {
     } else {
       fileName += '.sublime-snippet';
     }
-    
+
     snippet = snippet.replace(regTab, function($0, $1) {
       var num = _.indexOf(arr, $0) + 1;
       return '${'+ num + ':' + $1 + '}';
@@ -210,7 +209,6 @@ function mkdirsSync(dirname, mode){
  * @param tpl
  * @param config
  */
-
 function compileHBS(tpl, config) {
   var result = [];
   _.each(config, function(value, index) {
@@ -293,13 +291,13 @@ gulp.task('docs', function(){
 });
 
 gulp.task('zip:webstorm', ['build'], function() {
-  return gulp.src('dist/webstorm/*')
+  return gulp.src('.build/webstorm/*')
       .pipe($.zip('JetBrains.zip'))
       .pipe(gulp.dest('dist'))
 });
 
 gulp.task('zip:sublime', ['build'], function() {
-  return gulp.src('dist/sublime/**/*')
+  return gulp.src('.build/sublime/**/*')
       .pipe($.zip('SublimeText.zip'))
       .pipe(gulp.dest('dist'))
 });

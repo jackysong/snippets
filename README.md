@@ -1,20 +1,27 @@
-## Amaze UI Snippets
+# Amaze UI Snippets
 ---
 
-Amaze UI Snippets for Editor/IDE.
+Amaze UI 代码片段。
 
 ## 使用效果
 
 ![snippets](snippets.gif)
 
+## 下载
+
+- [JetBrains 系列编辑器（WebStorm、IntelliJ IDEA 等）](http://amazeui.org/download?ver=jetbrains)
+- [Sublime Text](http://amazeui.org/download?ver=sublime)
+
 ## 安装
 
-- 现目前还没有添加到官方插件中使用如下：  
+- 现目前还没有添加到官方插件中使用如下：
 
-- Sublime Text 2/3 打开 `Preferences > Browse Packages`. 在 `Browse Packages` 下创建 AmazeUI 目录，把 dist 目录 sublime 内的文件复制创建好的 `AmazeUI` 目录下。
+- **Sublime Text 2/3**：打开 `Preferences > Browse Packages`. 在 `Browse Packages` 下创建 AmazeUI 目录，把 dist 目录 sublime 内的文件复制创建好的 `AmazeUI` 目录下。
 
-- webStorm 打开 `Preferences > Live Templates` 增加 AmazeUI 代码片段，把 `dist` 目录下的 `AmazeUI.xml` 拷贝到 `Live Templates` 你自定义的代码片段下。
- 
+- **JetBrains 系列编辑器（WebStorm 等）**：
+  - **方式一**：Mac 用户把下载解压得到的 AmazeUI.xml 拷贝到 `~/Library/Preferences/WebStorm9/templates` 目录下，重启编辑器（`WebStorm9` 为相应编辑器的名称和版本）；
+  - **方式二**：打开 `Preferences > Live Templates` 增加 AmazeUI 代码片段，把下载解压得到的 `AmazeUI.xml` 拷贝到 `Live Templates` 你自定义的代码片段下;
+
 ## CSS 代码片段目录
 
 ### CDN
@@ -32,7 +39,7 @@ Amaze UI Snippets for Editor/IDE.
 
 <table class="am-table am-table-bordered am-table-striped am-table-hover">
   <thead><th>组件</th><th>代码片段</th></thead>
-  <tbody>    
+  <tbody>
     <tr><td>HTML5 布局模板</td><td>am-html</td></tr>
   </tbody>
 </table>
